@@ -33,8 +33,6 @@ body.no-drawer #_sidebar {
   justify-content: center;
   min-height: 24rem;
   opacity: 1;
-  overflow: hidden;
-  position: relative;
   visibility: visible;
   width: 100%;
 }
@@ -64,8 +62,6 @@ body.no-drawer #_menu {
     justify-content: center !important;
     min-height: 100vh !important;
     opacity: 1 !important;
-    overflow: hidden !important;
-    position: relative !important;
     visibility: visible !important;
     width: 100% !important;
   }
@@ -100,13 +96,8 @@ h4,
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
-  height: 100% !important;
-  inset: 0 !important;
-  left: 0 !important;
   overflow: hidden;
-  position: absolute !important;
-  top: 0 !important;
-  width: 100% !important;
+  position: relative;
 }
 
 #_sidebar .sidebar-bg::after {
