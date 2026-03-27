@@ -564,9 +564,36 @@ body.dark-mode .home-button.ghost {
   margin-bottom: 0.4rem;
 }
 
+.resume-entry-head {
+  align-items: flex-start;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.resume-entry-role,
+.resume-entry-location {
+  color: var(--site-ink-soft);
+  margin: 0;
+}
+
+.resume-entry-role {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.resume-entry-location {
+  font-size: 0.95rem;
+  margin-top: 0.2rem;
+}
+
 .resume-entry-summary {
   color: var(--site-ink-soft);
   margin-bottom: 0.85rem;
+}
+
+.resume-entry-compact h3 {
+  margin-bottom: 0.35rem;
 }
 
 .resume-entry ul {
@@ -779,5 +806,10 @@ body.dark-mode .resume-tags span {
 
   .resume-actions {
     gap: 0.5rem;
+  }
+
+  .resume-entry-head {
+    flex-direction: column;
+    gap: 0.3rem;
   }
 }
