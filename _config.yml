@@ -15,9 +15,7 @@ author:
   social:
     github: siyche
 
-accent_image:
-  background: 'radial-gradient(circle at 18% 20%, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0) 30%), linear-gradient(145deg, rgb(17, 39, 52) 0%, rgb(20, 67, 86) 52%, rgb(198, 108, 73) 100%)'
-  overlay: false
+accent_image: /assets/img/sidebar-bg.jpg
 accent_color: rgb(198,108,73)
 theme_color: rgb(17,39,52)
 
