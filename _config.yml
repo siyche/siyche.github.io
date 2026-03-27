@@ -23,6 +23,8 @@ menu:
     url: /about/
   - title: Journal
     url: /journal/
+  - title: Showcase
+    url: /showcase/
   - title: GitHub
     url: https://github.com/siyche
     external: true

@@ -264,6 +264,183 @@ body.dark-mode .home-button.ghost {
   white-space: nowrap;
 }
 
+.showcase-intro {
+  border-left: 1px solid var(--site-line);
+  color: var(--site-ink-soft);
+  margin: 1.5rem 0 2rem;
+  padding: 0.15rem 0 0.15rem 1.25rem;
+}
+
+.showcase-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 2rem;
+}
+
+.showcase-card {
+  background: linear-gradient(180deg, var(--site-surface-strong), var(--site-surface));
+  border: 1px solid var(--site-line);
+  border-radius: 1.6rem;
+  box-shadow: var(--site-shadow);
+  color: inherit;
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.showcase-card:hover {
+  border-color: rgba(198, 108, 73, 0.35);
+  box-shadow: 0 28px 68px rgba(17, 39, 52, 0.14);
+  transform: translateY(-3px);
+}
+
+.showcase-frame {
+  padding: 1rem 1rem 0;
+}
+
+.showcase-browser-bar {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(17, 39, 52, 0.08);
+  border-bottom: none;
+  border-radius: 1.15rem 1.15rem 0 0;
+  display: flex;
+  gap: 0.45rem;
+  height: 2.75rem;
+  padding: 0 0.9rem;
+}
+
+.showcase-browser-bar span {
+  background: rgba(17, 39, 52, 0.16);
+  border-radius: 999px;
+  display: inline-block;
+  height: 0.55rem;
+  width: 0.55rem;
+}
+
+.showcase-preview {
+  border-radius: 0 0 1.15rem 1.15rem;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  min-height: 19rem;
+  overflow: hidden;
+}
+
+.showcase-preview-sidebar {
+  background:
+    linear-gradient(180deg, rgba(6, 45, 56, 0.16), rgba(6, 45, 56, 0.42)),
+    url("/assets/img/sidebar-bg.jpg") center / cover;
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.showcase-preview-main {
+  background: rgba(255, 255, 255, 0.96);
+  padding: 1.5rem 1.35rem;
+}
+
+.showcase-preview-line,
+.showcase-preview-grid span,
+.showcase-preview-stack span {
+  background: rgba(17, 39, 52, 0.12);
+  border-radius: 0.5rem;
+  display: block;
+}
+
+.showcase-preview-line {
+  height: 0.8rem;
+  margin-bottom: 0.8rem;
+  width: 100%;
+}
+
+.showcase-preview-line.short {
+  height: 1rem;
+  width: 46%;
+}
+
+.showcase-preview-line.medium {
+  width: 72%;
+}
+
+.showcase-preview-grid {
+  display: grid;
+  gap: 0.7rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 1.2rem;
+}
+
+.showcase-preview-grid.wide {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.showcase-preview-grid span,
+.showcase-preview-stack span {
+  min-height: 5.5rem;
+}
+
+.showcase-preview-stack {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.showcase-preview-stack.tall span {
+  min-height: 6.8rem;
+}
+
+.showcase-preview-a .showcase-preview-main {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(245, 248, 250, 0.98));
+}
+
+.showcase-preview-b .showcase-preview-main {
+  background:
+    linear-gradient(180deg, rgba(255, 252, 248, 0.98), rgba(245, 247, 249, 0.98));
+}
+
+.showcase-preview-c .showcase-preview-main {
+  background:
+    linear-gradient(180deg, rgba(248, 251, 252, 0.98), rgba(242, 244, 247, 0.98));
+}
+
+.showcase-preview-d .showcase-preview-main {
+  background:
+    linear-gradient(180deg, rgba(252, 249, 246, 0.98), rgba(245, 245, 242, 0.98));
+}
+
+.showcase-copy {
+  padding: 1.25rem 1.35rem 1.45rem;
+  text-align: center;
+}
+
+.showcase-copy strong {
+  color: var(--site-ink);
+  display: block;
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 2rem;
+  line-height: 1.05;
+  margin-bottom: 0.55rem;
+}
+
+.showcase-copy span,
+.showcase-copy small {
+  color: var(--site-ink-soft);
+  display: block;
+}
+
+.showcase-copy span {
+  font-size: 1.05rem;
+  margin-bottom: 0.45rem;
+}
+
+.showcase-copy small code,
+.showcase-intro code {
+  background: rgba(17, 39, 52, 0.08);
+  border-radius: 0.4rem;
+  color: inherit;
+  padding: 0.1rem 0.35rem;
+}
+
 body.dark-mode .page .lead,
 body.dark-mode .home-card h3,
 body.dark-mode .about-card h2,
@@ -291,10 +468,74 @@ body.dark-mode .home-list small {
   color: var(--site-ink-soft);
 }
 
+body.dark-mode .showcase-browser-bar {
+  background: rgba(39, 36, 34, 0.86);
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+body.dark-mode .showcase-browser-bar span {
+  background: rgba(236, 235, 231, 0.2);
+}
+
+body.dark-mode .showcase-preview-main,
+body.dark-mode .showcase-preview-a .showcase-preview-main,
+body.dark-mode .showcase-preview-b .showcase-preview-main,
+body.dark-mode .showcase-preview-c .showcase-preview-main,
+body.dark-mode .showcase-preview-d .showcase-preview-main {
+  background: rgba(24, 23, 21, 0.96);
+}
+
+body.dark-mode .showcase-preview-line,
+body.dark-mode .showcase-preview-grid span,
+body.dark-mode .showcase-preview-stack span,
+body.dark-mode .showcase-copy small code,
+body.dark-mode .showcase-intro code {
+  background: rgba(236, 235, 231, 0.1);
+}
+
+body.dark-mode .showcase-copy strong,
+body.dark-mode .showcase-copy span,
+body.dark-mode .showcase-copy small,
+body.dark-mode .showcase-intro {
+  color: var(--site-ink);
+}
+
 @media screen and (prefers-color-scheme: dark) {
   body:not(.light-mode):not(.dark-mode) .link-card span,
   body:not(.light-mode):not(.dark-mode) .home-list small {
     color: var(--site-ink-soft);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-browser-bar {
+    background: rgba(39, 36, 34, 0.86);
+    border-color: rgba(255, 255, 255, 0.08);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-browser-bar span {
+    background: rgba(236, 235, 231, 0.2);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-main,
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-a .showcase-preview-main,
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-b .showcase-preview-main,
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-c .showcase-preview-main,
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-d .showcase-preview-main {
+    background: rgba(24, 23, 21, 0.96);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-line,
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-grid span,
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-stack span,
+  body:not(.light-mode):not(.dark-mode) .showcase-copy small code,
+  body:not(.light-mode):not(.dark-mode) .showcase-intro code {
+    background: rgba(236, 235, 231, 0.1);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-copy strong,
+  body:not(.light-mode):not(.dark-mode) .showcase-copy span,
+  body:not(.light-mode):not(.dark-mode) .showcase-copy small,
+  body:not(.light-mode):not(.dark-mode) .showcase-intro {
+    color: var(--site-ink);
   }
 }
 
@@ -304,7 +545,8 @@ body.dark-mode .home-list small {
   }
 
   .about-grid,
-  .link-card-grid {
+  .link-card-grid,
+  .showcase-grid {
     grid-template-columns: 1fr;
   }
 }
