@@ -20,42 +20,6 @@ body.light-mode .nav-btn-bar {
   background-color: #fff;
 }
 
-@media screen and (min-width: 64em) {
-  body.no-drawer #_drawer,
-  body.no-drawer #_drawer.loaded {
-    bottom: 0 !important;
-    display: block !important;
-    left: 0 !important;
-    margin-left: 0 !important;
-    overflow: visible !important;
-    position: fixed !important;
-    top: 0 !important;
-    transform: none !important;
-    visibility: visible !important;
-    width: 21rem !important;
-    z-index: 10 !important;
-  }
-
-  body.no-drawer #_sidebar,
-  body.no-drawer #_drawer.loaded #_sidebar {
-    align-items: center !important;
-    display: flex !important;
-    justify-content: center !important;
-    min-height: 100vh !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    width: 100% !important;
-  }
-
-  body.no-drawer #_drawer.loaded .sidebar {
-    min-height: 100vh !important;
-  }
-
-  body.no-drawer #_main.content {
-    margin-left: 24rem !important;
-  }
-}
-
 h1,
 h2,
 h3,
@@ -75,14 +39,24 @@ h4,
   font-size: 1.1rem;
 }
 
+#_sidebar {
+  overflow: hidden;
+  position: relative;
+}
+
 #_sidebar .sidebar-bg {
   background-color: rgb(17, 39, 52) !important;
   background-image: url("/assets/img/sidebar-bg.jpg") !important;
   background-position: center center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
+  height: 100% !important;
+  inset: 0 !important;
+  left: 0 !important;
   overflow: hidden;
-  position: relative;
+  position: absolute !important;
+  top: 0 !important;
+  width: 100% !important;
 }
 
 #_sidebar .sidebar-bg::after {
