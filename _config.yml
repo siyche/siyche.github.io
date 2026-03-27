@@ -46,7 +46,6 @@ defaults:
 hydejack:
   no_search: true
   no_break_layout: true
-  no_drawer: true
   cookies_banner: false
   advertise: false
   hide_dates: false

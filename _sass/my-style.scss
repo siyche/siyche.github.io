@@ -20,42 +20,6 @@ body.light-mode .nav-btn-bar {
   background-color: #fff;
 }
 
-@media screen and (min-width: 64em) {
-  body.no-drawer #_drawer,
-  body.no-drawer #_drawer.loaded {
-    bottom: 0 !important;
-    display: block !important;
-    left: 0 !important;
-    margin-left: 0 !important;
-    overflow: visible !important;
-    position: fixed !important;
-    top: 0 !important;
-    transform: none !important;
-    visibility: visible !important;
-    width: 21rem !important;
-    z-index: 10 !important;
-  }
-
-  body.no-drawer #_sidebar,
-  body.no-drawer #_drawer.loaded #_sidebar {
-    align-items: center !important;
-    display: flex !important;
-    justify-content: center !important;
-    min-height: 100vh !important;
-    opacity: 1 !important;
-    visibility: visible !important;
-    width: 100% !important;
-  }
-
-  body.no-drawer #_drawer.loaded .sidebar {
-    min-height: 100vh !important;
-  }
-
-  body.no-drawer #_main.content {
-    margin-left: 24rem !important;
-  }
-}
-
 h1,
 h2,
 h3,
