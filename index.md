@@ -10,7 +10,7 @@ description: A focused home for writing, experiments, and selected work.
   <p class="lead">I use this site to publish notes in progress, sharpen project writeups, and keep a stable public version of what I am making.</p>
   <div class="home-actions">
     <a class="home-button" href="/about/">About me</a>
-    <a class="home-button secondary" href="/journal/">Read the journal</a>
+    <a class="home-button secondary" href="/work/">View the work</a>
     <a class="home-button ghost" href="https://github.com/siyche" rel="me noopener noreferrer">GitHub</a>
   </div>
 </div>
@@ -24,7 +24,7 @@ description: A focused home for writing, experiments, and selected work.
   <section class="home-card">
     <p class="home-kicker">Writing</p>
     <h3>Notes that do real work</h3>
-    <p>The journal is for process notes, technical observations, and ideas worth turning into something more durable than a commit message.</p>
+    <p>The work page collects process notes, technical observations, and longer pieces that deserve more permanence than a commit message.</p>
   </section>
   <section class="home-card">
     <p class="home-kicker">Intent</p>
@@ -40,8 +40,8 @@ description: A focused home for writing, experiments, and selected work.
       <strong>About</strong>
       <span>A short biography, working style, and what this site is for.</span>
     </a>
-    <a class="link-card" href="/journal/">
-      <strong>Journal</strong>
+    <a class="link-card" href="/work/">
+      <strong>Work</strong>
       <span>Running notes, technical thoughts, and longer writing as it develops.</span>
     </a>
     <a class="link-card" href="https://github.com/siyche" rel="me noopener noreferrer">

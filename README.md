@@ -15,5 +15,5 @@ Personal site built with Jekyll and Hydejack.
 - `_config.yml`: site metadata and theme settings
 - `index.md`: homepage
 - `about.md`: bio page
-- `journal.md`: blog index
+- `work.md`: blog index
 - `_posts/`: blog posts
