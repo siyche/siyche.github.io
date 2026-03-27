@@ -4,14 +4,14 @@ title: Showcase
 description: Selected projects, site concepts, and places to link your own work.
 ---
 
-<p class="lead">A gallery for projects, experiments, and finished work. Replace each placeholder card with your own title, short description, and destination link.</p>
+<p class="lead">A gallery for projects, experiments, and finished work. The first card is now a real project entry, and the remaining cards are still placeholders you can replace as you add more.</p>
 
 <div class="showcase-intro">
   <p><strong>How to use this page:</strong> edit the card title, subtitle, and <code>href</code> values below. If you later want real screenshots instead of the built-in placeholders, swap the preview block for an image.</p>
 </div>
 
 <div class="showcase-grid">
-  <a class="showcase-card" href="/about/">
+  <a class="showcase-card" href="https://github.com/PolyVessel" rel="noopener noreferrer" target="_blank">
     <div class="showcase-frame">
       <div class="showcase-browser-bar">
         <span></span>
@@ -33,9 +33,9 @@ description: Selected projects, site concepts, and places to link your own work.
       </div>
     </div>
     <div class="showcase-copy">
-      <strong>Project Title One</strong>
-      <span>One sentence on what it is and why it matters.</span>
-      <small>Replace this link with your own project URL.</small>
+      <strong>Cal Poly Autonomous Vessel</strong>
+      <span>The software repository for our autonomous vessel project, focused on navigation, robotics integration, and real-world validation.</span>
+      <small>GitHub repo for the Cal Poly team project.</small>
     </div>
   </a>
 
