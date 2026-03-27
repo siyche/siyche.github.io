@@ -18,6 +18,17 @@ body.dark-mode {
   --site-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  body:not(.light-mode):not(.dark-mode) {
+    --site-ink: rgb(236, 235, 231);
+    --site-ink-soft: rgba(236, 235, 231, 0.74);
+    --site-line: rgba(255, 255, 255, 0.1);
+    --site-surface: rgba(31, 29, 27, 0.84);
+    --site-surface-strong: rgba(40, 37, 35, 0.92);
+    --site-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
+  }
+}
+
 body {
   font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -133,15 +144,38 @@ body.dark-mode .home-button {
   color: var(--site-ink);
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  body:not(.light-mode):not(.dark-mode) .home-button {
+    background: rgba(236, 235, 231, 0.1);
+    border-color: rgba(236, 235, 231, 0.18);
+    color: var(--site-ink);
+  }
+}
+
 body.dark-mode .home-button.secondary {
   background: var(--site-accent);
   border-color: var(--site-accent);
   color: white;
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  body:not(.light-mode):not(.dark-mode) .home-button.secondary {
+    background: var(--site-accent);
+    border-color: var(--site-accent);
+    color: white;
+  }
+}
+
 body.dark-mode .home-button.ghost {
   background: transparent;
   border-color: rgba(236, 235, 231, 0.18);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body:not(.light-mode):not(.dark-mode) .home-button.ghost {
+    background: transparent;
+    border-color: rgba(236, 235, 231, 0.18);
+  }
 }
 
 .home-grid,
@@ -240,9 +274,28 @@ body.dark-mode .link-card {
   color: var(--site-ink);
 }
 
+@media screen and (prefers-color-scheme: dark) {
+  body:not(.light-mode):not(.dark-mode) .page .lead,
+  body:not(.light-mode):not(.dark-mode) .home-card h3,
+  body:not(.light-mode):not(.dark-mode) .about-card h2,
+  body:not(.light-mode):not(.dark-mode) .link-card strong,
+  body:not(.light-mode):not(.dark-mode) .home-list a,
+  body:not(.light-mode):not(.dark-mode) .home-button.ghost,
+  body:not(.light-mode):not(.dark-mode) .link-card {
+    color: var(--site-ink);
+  }
+}
+
 body.dark-mode .link-card span,
 body.dark-mode .home-list small {
   color: var(--site-ink-soft);
+}
+
+@media screen and (prefers-color-scheme: dark) {
+  body:not(.light-mode):not(.dark-mode) .link-card span,
+  body:not(.light-mode):not(.dark-mode) .home-list small {
+    color: var(--site-ink-soft);
+  }
 }
 
 @media (max-width: 64rem) {
