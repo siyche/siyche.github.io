@@ -13,6 +13,13 @@ body {
   font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
 }
 
+body.light-mode,
+body.light-mode .content,
+body.light-mode .navbar,
+body.light-mode .nav-btn-bar {
+  background-color: #fff;
+}
+
 h1,
 h2,
 h3,
@@ -33,6 +40,11 @@ h4,
 }
 
 #_sidebar .sidebar-bg {
+  background-color: rgb(17, 39, 52) !important;
+  background-image: url("/assets/img/sidebar-bg.jpg") !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
   overflow: hidden;
   position: relative;
 }
@@ -44,6 +56,33 @@ h4,
   content: "";
   inset: 0;
   position: absolute;
+}
+
+#_sidebar .sidebar-sticky {
+  color: rgba(255, 255, 255, 0.9);
+  position: relative;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.22);
+  z-index: 4;
+}
+
+#_sidebar .sidebar-title,
+#_sidebar .sidebar-title h2,
+#_sidebar .sidebar-about p,
+#_sidebar .sidebar-nav-item,
+#_sidebar .sidebar-social a {
+  color: #fff !important;
+}
+
+#_sidebar .sidebar-about p {
+  opacity: 0.92;
+}
+
+#_sidebar .sidebar-nav-item {
+  border-bottom-color: rgba(255, 255, 255, 0.22);
+}
+
+#_sidebar .sidebar-social a {
+  opacity: 1;
 }
 
 .sidebar-about .sidebar-title {
