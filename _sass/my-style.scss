@@ -1,0 +1,255 @@
+:root {
+  --site-ink: rgb(17, 39, 52);
+  --site-ink-soft: rgba(17, 39, 52, 0.72);
+  --site-line: rgba(17, 39, 52, 0.12);
+  --site-surface: rgba(255, 255, 255, 0.74);
+  --site-surface-strong: rgba(255, 255, 255, 0.88);
+  --site-shadow: 0 24px 60px rgba(17, 39, 52, 0.08);
+  --site-radius: 1.35rem;
+  --site-accent: rgb(198, 108, 73);
+}
+
+body {
+  font-family: "Avenir Next", "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.page-title,
+.sidebar-title .h1 {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  letter-spacing: -0.025em;
+}
+
+.page > header {
+  margin-bottom: 2rem;
+}
+
+.page .lead {
+  color: var(--site-ink-soft);
+  font-size: 1.1rem;
+}
+
+#_sidebar .sidebar-bg {
+  overflow: hidden;
+  position: relative;
+}
+
+#_sidebar .sidebar-bg::after {
+  background:
+    linear-gradient(120deg, rgba(255, 255, 255, 0.16), rgba(255, 255, 255, 0) 36%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0));
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.sidebar-about .sidebar-title {
+  display: inline-block;
+  margin-bottom: 0.45rem;
+}
+
+.sidebar-about p {
+  line-height: 1.55;
+  max-width: 18rem;
+}
+
+.sidebar-nav-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+  display: inline-block;
+  padding: 0.4rem 0;
+}
+
+.sidebar-social a {
+  opacity: 0.9;
+}
+
+.home-hero,
+.home-card,
+.about-card,
+.link-card,
+.home-callout,
+.home-list li {
+  backdrop-filter: blur(10px);
+  background: linear-gradient(180deg, var(--site-surface-strong), var(--site-surface));
+  border: 1px solid var(--site-line);
+  border-radius: var(--site-radius);
+  box-shadow: var(--site-shadow);
+}
+
+.home-hero,
+.home-callout {
+  padding: 1.6rem;
+}
+
+.home-kicker {
+  color: var(--site-accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  margin-bottom: 0.75rem;
+  text-transform: uppercase;
+}
+
+.home-hero h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.02;
+  margin-bottom: 0.9rem;
+  margin-top: 0;
+  max-width: 12ch;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.4rem;
+}
+
+.home-button {
+  background: var(--site-ink);
+  border: 1px solid var(--site-ink);
+  border-radius: 999px;
+  color: white;
+  display: inline-flex;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.72rem 1.05rem;
+  text-decoration: none;
+  transition: transform 160ms ease, opacity 160ms ease, background-color 160ms ease;
+}
+
+.home-button:hover {
+  opacity: 0.95;
+  transform: translateY(-1px);
+}
+
+.home-button.secondary {
+  background: var(--site-accent);
+  border-color: var(--site-accent);
+}
+
+.home-button.ghost {
+  background: transparent;
+  color: var(--site-ink);
+}
+
+.home-grid,
+.about-grid,
+.link-card-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 1.75rem 0 2.25rem;
+}
+
+.home-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.about-grid,
+.link-card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.home-card,
+.about-card,
+.link-card {
+  padding: 1.2rem 1.15rem;
+}
+
+.home-card h3,
+.about-card h2,
+.link-card strong {
+  color: var(--site-ink);
+  display: block;
+  margin-top: 0;
+}
+
+.home-card h3,
+.about-card h2 {
+  font-size: 1.15rem;
+  margin-bottom: 0.55rem;
+}
+
+.home-card p:last-child,
+.about-card p:last-child,
+.home-callout p:last-child {
+  margin-bottom: 0;
+}
+
+.home-section {
+  margin-top: 2.4rem;
+}
+
+.link-card {
+  color: inherit;
+  text-decoration: none;
+}
+
+.link-card span {
+  color: var(--site-ink-soft);
+  display: block;
+  line-height: 1.55;
+  margin-top: 0.35rem;
+}
+
+.home-list {
+  display: grid;
+  gap: 0.85rem;
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.home-list li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1.1rem;
+}
+
+.home-list a {
+  color: var(--site-ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-list small {
+  color: var(--site-ink-soft);
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 64rem) {
+  .home-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid,
+  .link-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 42rem) {
+  .home-hero,
+  .home-callout,
+  .home-card,
+  .about-card,
+  .link-card,
+  .home-list li {
+    padding: 1.05rem;
+  }
+
+  .home-list li {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .home-list small {
+    margin-left: 0;
+  }
+}

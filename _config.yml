@@ -1,71 +1,63 @@
-lang:                  en
-title:                 Hydejack
-copyright:             © 2024. All rights reserved.
+lang: en
+title: Stephen Chen
+short_title: Stephen
+description: Personal site for writing, experiments, and selected work.
+tagline: Thoughtful web work, notes in progress, and the projects worth keeping.
+url: "https://siyche.github.io"
+baseurl: ""
+timezone: America/Denver
 
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
-theme_color:           rgb(25,55,71)
+author:
+  name: Stephen Chen
+  about: >
+    I use this site to collect writing, experiments, and the work I want to
+    stay visible after the launch rush fades.
+  social:
+    github: siyche
 
-google_fonts:          false
+accent_image:
+  background: 'radial-gradient(circle at 18% 20%, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0) 30%), linear-gradient(145deg, rgb(17, 39, 52) 0%, rgb(20, 67, 86) 52%, rgb(198, 108, 73) 100%)'
+  overlay: false
+accent_color: rgb(198,108,73)
+theme_color: rgb(17,39,52)
+
+menu:
+  - title: About
+    url: /about/
+  - title: Journal
+    url: /journal/
+  - title: GitHub
+    url: https://github.com/siyche
+    external: true
+    rel: me noopener noreferrer
+
+permalink: pretty
+markdown: kramdown
+
+plugins:
+  - jekyll-include-cache
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
 hydejack:
-  post_addons:         [about, newsletter, related, random, comments]
-  project_addons:      [about, newsletter, other, comments]
-
-  no_mark_external:    false
-  no_push_state:       false
-  no_drawer:           false
-  no_navbar:           false
-  no_search:           false
-  no_inline_css:       false
-  no_page_style:       false
-  no_break_layout:     true
-  no_toc:              false
-  no_third_column:     false
-  no_large_headings:   false
-  no_structured_data:  false
-  no_theme_color:      false
-  no_breadcrumbs:      false
-
-  use_lsi:             true
-  cookies_banner:      true
-  advertise:           true
-  hide_dates:          false
-  hide_last_modified:  false
+  no_search: true
+  no_break_layout: true
+  cookies_banner: false
+  advertise: false
+  hide_dates: false
+  hide_last_modified: false
 
   dark_mode:
-    always:            false
-    dynamic:           true
-    sunrise:           6
-    sunset:            18
-    icon:              true
-
-  offline:
-    enabled:           false
-    cache_version:     1
-    precache_assets:
-      - /assets/img/swipe.svg
-
-optional_front_matter:
-  remove_originals:    true
-
-readme_index:
-  remove_originals:    true
-  with_frontmatter:    true
-
-relative_links:
-  collections:         true
-
-titles_from_headings:
-  strip_title:         true
-  collections:         true
-
-compress_html:
-  comments:            ["<!-- ", " -->"]
-  clippings:           all
-  endings:             all
-  ignore:
-    envs:              [development]
+    always: false
+    dynamic: true
+    sunrise: 6
+    sunset: 18
+    icon: true
 
 sass:
-  style:               compressed
+  style: compressed
