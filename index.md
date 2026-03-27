@@ -2,7 +2,6 @@
 layout: page
 title: Stephen Chen
 description: A focused home for writing, experiments, and selected work.
-cover: true
 ---
 
 <div class="home-hero">
