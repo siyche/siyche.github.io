@@ -39,6 +39,15 @@ h4,
   font-size: 1.1rem;
 }
 
+#_sidebar {
+  align-items: flex-start;
+}
+
+.sidebar-sticky {
+  padding-top: 14rem;
+  transform: none;
+}
+
 .home-hero,
 .home-card,
 .about-card,
