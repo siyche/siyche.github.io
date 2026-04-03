@@ -19,7 +19,12 @@ hide_description: true
 
 <section class="resume-Education">
   <p class="resume-label">Education</p>
-  <p>California Polytechnic State University, San Luis Obispo<br />Bachelor of Science in Software Engineering with Minor in Mathematics</p> 
+  <p>California Polytechnic State University, San Luis Obispo<br /><em>Bachelor of Science in Software Engineering with Minor in Mathematics</em></p>
+</section>
+
+<section class="resume-Education">
+  <p class="resume-label">Coursework</p>
+  <p>Systems Programming • Computer Architecture • Data Structures • Object Oriented Programming • Algorithms • Programming Languages • Databases • Computer Security • Discrete Structures • Networked, Distributed, and Parallel Computing • SWE I-II • UI/UX Design • Data Visualization</p> 
 </section>
 
   <!-- <div class="resume-actions">
@@ -42,12 +47,7 @@ hide_description: true
   </div>
 </section>
 
-<div class="resume-layout">
-  <div class="resume-main">
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Work Experience</h2>
-      </div>
+
 
       <article class="resume-entry">
         <div class="resume-entry-head">

@@ -492,6 +492,10 @@ body.dark-mode .home-button.ghost {
   max-width: 54rem;
 }
 
+.resume-Education p:last-child {
+  margin-bottom: 0;
+}
+
 .resume-actions {
   display: flex;
   flex-wrap: wrap;
