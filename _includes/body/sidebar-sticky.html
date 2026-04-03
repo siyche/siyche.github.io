@@ -7,7 +7,7 @@
     {% include body/nav.html %}
   </nav>
 
-  {% assign author = site.data.authors.first[1] | default:site.author %}
+  {% assign author = site.author %}
   <div class="sidebar-social">
     {% include components/social.html author=author %}
   </div>
