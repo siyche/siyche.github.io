@@ -39,7 +39,7 @@ description: Selected projects, site concepts, and places to link your own work.
     </div>
   </a>
 
-  <a class="showcase-card" href="/work/">
+  <a class="showcase-card" href="/experience/">
     <div class="showcase-frame">
       <div class="showcase-browser-bar">
         <span></span>

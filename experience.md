@@ -1,6 +1,6 @@
 ---
 layout: list
-title: Work
+title: Experience
 description: Notes, updates, and longer writing.
 menu: true
 order: 2
