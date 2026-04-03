@@ -29,7 +29,10 @@ hide_description: true
   <p>Systems Programming, Computer Architecture, Data Structures, Object Oriented Programming, Algorithms, Programming Languages, Databases, Computer Security, Discrete Structures, Networked, Distributed, and Parallel Computing, SWE I-II, UI/UX Design, Data Visualization</p> 
 </section>
 
+<section class="resume-Education">
+  <p class="resume-label">Skills</p>
 
+</section>
 
 
 
