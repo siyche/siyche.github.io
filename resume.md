@@ -64,6 +64,7 @@ hide_description: true
             <h3>Caritas</h3>
             <p class="resume-entry-role">Software Engineer (Co-op)</p>
           </div>
+          <p class="resume-entry-dates">Aug 2025 - Present</p>
         </div>
         <ul>
           <li>Led the development of a full-stack MERN web application, collaborating in Agile sprints with 12 developers across web and iOS, and designing a unified backend data model with RESTful APIs for user management, to-dos, and secure document workflows.</li>
