@@ -40,15 +40,14 @@ hide_description: true
 
 <section class="resume-contact-grid">
   <div class="resume-contact-column">
-    <!-- <p><strong>Phone:</strong> <a href="tel:+12066501432">(206) 650-1432</a></p> -->
     <p><strong>Email:</strong> <a href="mailto:stiyche23@hotmail.com">stiyche23@hotmail.com</a></p>
     <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/siyche/">Linkedin</a></p>
+    
   </div>
   <div class="resume-contact-column">
     <p><strong>GitHub:</strong> <a href="https://github.com/siyche">github.com/siyche</a></p>
-    <p><strong>School:</strong> California Polytechnic State University, San Luis Obispo</p>
-    <p><strong>Expected graduation:</strong> June 2026</p>
   </div>
+  
 </section>
 
 <div class="resume-layout">
