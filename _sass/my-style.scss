@@ -496,6 +496,16 @@ body.dark-mode .home-button.ghost {
   margin-bottom: 0;
 }
 
+.resume-skills-card .resume-label {
+  margin-bottom: 0.9rem;
+}
+
+.resume-skills-grid {
+  display: grid;
+  gap: 1rem 1.1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .resume-actions {
   display: flex;
   flex-wrap: wrap;
@@ -643,6 +653,32 @@ body.dark-mode .home-button.ghost {
   margin-bottom: 0.6rem;
 }
 
+.resume-skills-card .resume-skill-group {
+  background: rgba(17, 39, 52, 0.05);
+  border: 1px solid rgba(17, 39, 52, 0.08);
+  border-radius: 0.85rem;
+  margin-bottom: 0;
+  padding: 0.85rem 0.9rem 0.9rem;
+}
+
+.resume-skills-card .resume-skill-group p {
+  color: var(--site-ink);
+  font-size: 0.84rem;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+}
+
+.resume-skills-card .resume-tags {
+  gap: 0.5rem;
+}
+
+.resume-skills-card .resume-tags span {
+  background: rgba(17, 39, 52, 0.12);
+  border-color: rgba(17, 39, 52, 0.14);
+  color: var(--site-ink);
+}
+
 .resume-tags {
   display: flex;
   flex-wrap: wrap;
@@ -743,6 +779,17 @@ body.dark-mode .resume-tags span {
   color: var(--site-ink-soft);
 }
 
+body.dark-mode .resume-skills-card .resume-skill-group {
+  background: rgba(236, 235, 231, 0.05);
+  border-color: rgba(236, 235, 231, 0.1);
+}
+
+body.dark-mode .resume-skills-card .resume-tags span {
+  background: rgba(236, 235, 231, 0.12);
+  border-color: rgba(236, 235, 231, 0.18);
+  color: var(--site-ink);
+}
+
 body.dark-mode .resume-Education {
   background: rgba(236, 235, 231, 0.08);
 }
@@ -792,6 +839,17 @@ body.dark-mode .resume-Education {
     color: var(--site-ink-soft);
   }
 
+  body:not(.light-mode):not(.dark-mode) .resume-skills-card .resume-skill-group {
+    background: rgba(236, 235, 231, 0.05);
+    border-color: rgba(236, 235, 231, 0.1);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .resume-skills-card .resume-tags span {
+    background: rgba(236, 235, 231, 0.12);
+    border-color: rgba(236, 235, 231, 0.18);
+    color: var(--site-ink);
+  }
+
   body:not(.light-mode):not(.dark-mode) .resume-Education {
     background: rgba(236, 235, 231, 0.08);
   }
@@ -810,6 +868,10 @@ body.dark-mode .resume-Education {
 
   .resume-contact-grid,
   .resume-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-skills-grid {
     grid-template-columns: 1fr;
   }
 }

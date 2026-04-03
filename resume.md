@@ -29,41 +29,43 @@ hide_description: true
   <p>Systems Programming, Computer Architecture, Data Structures, Object Oriented Programming, Algorithms, Programming Languages, Databases, Computer Security, Discrete Structures, Networked, Distributed, and Parallel Computing, SWE I-II, UI/UX Design, Data Visualization</p> 
 </section>
 
-<section class="resume-Education">
+<section class="resume-Education resume-skills-card">
   <p class="resume-label">Skills</p>
-  <div class="resume-skill-group">
-    <p><strong>Programming</strong></p>
-    <div class="resume-tags">
-      <span>Java</span>
-      <span>Python</span>
-      <span>JavaScript</span>
-      <span>TypeScript</span>
-      <span>HTML/CSS</span>
-      <span>SQL</span>
-      <span>React</span>
-      <span>Django</span>
-      <span>C</span>
-      <span>Linux</span>
-      <span>Assembly</span>
-      <span>ML</span>
-      <span>RISC-V</span>
+  <div class="resume-skills-grid">
+    <div class="resume-skill-group">
+      <p><strong>Programming</strong></p>
+      <div class="resume-tags">
+        <span>Java</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>TypeScript</span>
+        <span>HTML/CSS</span>
+        <span>SQL</span>
+        <span>React</span>
+        <span>Django</span>
+        <span>C</span>
+        <span>Linux</span>
+        <span>Assembly</span>
+        <span>ML</span>
+        <span>RISC-V</span>
+      </div>
     </div>
-  </div>
 
-  <div class="resume-skill-group">
-    <p><strong>Tools</strong></p>
-    <div class="resume-tags">
-      <span>TensorFlow</span>
-      <span>Figma</span>
-      <span>Wireshark</span>
-      <span>UML</span>
-      <span>Jira</span>
-      <span>Unity</span>
-      <span>Microsoft Office</span>
-      <span>Linux/Vim</span>
-      <span>Pandas</span>
-      <span>REST</span>
-      <span>AWS</span>
+    <div class="resume-skill-group">
+      <p><strong>Tools</strong></p>
+      <div class="resume-tags">
+        <span>TensorFlow</span>
+        <span>Figma</span>
+        <span>Wireshark</span>
+        <span>UML</span>
+        <span>Jira</span>
+        <span>Unity</span>
+        <span>Microsoft Office</span>
+        <span>Linux/Vim</span>
+        <span>Pandas</span>
+        <span>REST</span>
+        <span>AWS</span>
+      </div>
     </div>
   </div>
 </section>
