@@ -204,7 +204,7 @@ no_breadcrumbs: true
   <article class="resume-entry">
     <div class="resume-entry-head">
       <div>
-        <h3>United States Air Force Civil Air Patrol Squadron PCR-069</h3>
+        <h3>United States Air Force Civil Air Patrol Squadron 069</h3>
         <p class="resume-entry-role">Chief Master Sergeant Supervisor</p>
         <p class="resume-entry-location">Renton, WA</p>
       </div>
