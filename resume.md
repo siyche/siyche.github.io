@@ -31,7 +31,41 @@ hide_description: true
 
 <section class="resume-Education">
   <p class="resume-label">Skills</p>
+  <div class="resume-skill-group">
+    <p><strong>Programming</strong></p>
+    <div class="resume-tags">
+      <span>Java</span>
+      <span>Python</span>
+      <span>JavaScript</span>
+      <span>TypeScript</span>
+      <span>HTML/CSS</span>
+      <span>SQL</span>
+      <span>React</span>
+      <span>Django</span>
+      <span>C</span>
+      <span>Linux</span>
+      <span>Assembly</span>
+      <span>ML</span>
+      <span>RISC-V</span>
+    </div>
+  </div>
 
+  <div class="resume-skill-group">
+    <p><strong>Tools</strong></p>
+    <div class="resume-tags">
+      <span>TensorFlow</span>
+      <span>Figma</span>
+      <span>Wireshark</span>
+      <span>UML</span>
+      <span>Jira</span>
+      <span>Unity</span>
+      <span>Microsoft Office</span>
+      <span>Linux/Vim</span>
+      <span>Pandas</span>
+      <span>REST</span>
+      <span>AWS</span>
+    </div>
+  </div>
 </section>
 
 
@@ -186,54 +220,6 @@ hide_description: true
   </div>
 
   <aside class="resume-side">
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Skills</h2>
-      </div>
-    </section>
-
-
-
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Programming</h2>
-      </div>
-      <div class="resume-tags">
-        <span>Java</span>
-        <span>Python</span>
-        <span>JavaScript</span>
-        <span>TypeScript</span>
-        <span>HTML/CSS</span>
-        <span>SQL</span>
-        <span>React</span>
-        <span>Django</span>
-        <span>C</span>
-        <span>Linux</span>
-        <span>Assembly</span>
-        <span>ML</span>
-        <span>RISC-V</span>
-      </div>
-    </section>
-
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Tools</h2>
-      </div>
-      <div class="resume-tags">
-        <span>TensorFlow</span>
-        <span>Figma</span>
-        <span>Wireshark</span>
-        <span>UML</span>
-        <span>Jira</span>
-        <span>Unity</span>
-        <span>Microsoft Office</span>
-        <span>Linux/Vim</span>
-        <span>Pandas</span>
-        <span>REST</span>
-        <span>AWS</span>
-      </div>
-    </section>
-
     <section class="resume-section">
       <div class="resume-section-heading">
         <h2>Publication</h2>
