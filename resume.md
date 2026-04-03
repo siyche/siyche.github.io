@@ -17,6 +17,8 @@ hide_description: true
   <p>Software Engineering student at Cal Poly with hands-on experience across MERN product development, geospatial AI research, autonomous systems, and technical team leadership. Most of my work sits at the intersection of product thinking and implementation: shipping usable systems, improving workflows, and making complex technical work clear enough to operate in the real world.</p>
 </section> -->
 
+
+
 <section class="resume-Education">
   <p class="resume-label">Education</p>
   <p>California Polytechnic State University, San Luis Obispo<br /><em>Bachelor of Science in Computer Science, Minor in Mathematics</em></p>
@@ -39,15 +41,11 @@ hide_description: true
   </div> -->
 
 <section class="resume-contact-grid">
-  <div class="resume-contact-column">
+  <div class="resume-contact-column resume-contact-inline">
     <p><strong>Email:</strong> <a href="mailto:stiyche23@hotmail.com">stiyche23@hotmail.com</a></p>
-    <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/siyche/">Linkedin</a></p>
-    
-  </div>
-  <div class="resume-contact-column">
     <p><strong>GitHub:</strong> <a href="https://github.com/siyche">github.com/siyche</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/siyche/">linkedin.com/in/siyche</a></p>
   </div>
-  
 </section>
 
 <div class="resume-layout">
@@ -187,12 +185,8 @@ hide_description: true
   <aside class="resume-side">
     <section class="resume-section">
       <div class="resume-section-heading">
-        <h2>Education</h2>
+        <h2>Skills</h2>
       </div>
-      <article class="resume-entry resume-entry-compact">
-        <h3>Software Engineering</h3>
-        <p class="resume-entry-summary">Minor in Mathematics<br />California Polytechnic State University, San Luis Obispo<br />Expected June 2026</p>
-      </article>
     </section>
 
 

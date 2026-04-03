@@ -529,6 +529,19 @@ body.dark-mode .home-button.ghost {
   margin: 0 0 0.7rem;
 }
 
+.resume-contact-inline {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  grid-column: 1 / -1;
+}
+
+.resume-contact-inline p {
+  margin: 0;
+  white-space: nowrap;
+}
+
 .resume-contact-column a,
 .resume-entry h3 a,
 .resume-link-list a {
