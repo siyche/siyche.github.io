@@ -9,15 +9,13 @@ hide_description: true
 
 <section class="resume-hero">
   <h1>Stephen Chen</h1>
-  <p class="resume-role">Software engineer building full-stack products, applied AI systems, and practical interfaces.</p>
+  <p class="resume-role">Software Engineer</p>
 </section>
 
 <!-- <section class="resume-summary">
   <p class="resume-label">Summary</p>
   <p>Software Engineering student at Cal Poly with hands-on experience across MERN product development, geospatial AI research, autonomous systems, and technical team leadership. Most of my work sits at the intersection of product thinking and implementation: shipping usable systems, improving workflows, and making complex technical work clear enough to operate in the real world.</p>
 </section> -->
-
-
 
 <section class="resume-Education">
   <p class="resume-label">Education</p>
@@ -26,8 +24,10 @@ hide_description: true
 
 <section class="resume-Education">
   <p class="resume-label">Coursework</p>
-  <p>Systems Programming • Computer Architecture • Data Structures • Object Oriented Programming • Algorithms • Programming Languages • Databases • Computer Security • Discrete Structures • Networked, Distributed, and Parallel Computing • SWE I-II • UI/UX Design • Data Visualization</p> 
+  <p>Systems Programming, Computer Architecture, Data Structures, Object Oriented Programming, Algorithms, Programming Languages, Databases, Computer Security, Discrete Structures, Networked, Distributed, and Parallel Computing, SWE I-II, UI/UX Design, Data Visualization</p> 
 </section>
+
+
 
 
 
@@ -40,7 +40,7 @@ hide_description: true
 
 <section class="resume-contact-grid">
   <div class="resume-contact-column">
-    <p><strong>Phone:</strong> <a href="tel:+12066501432">(206) 650-1432</a></p>
+    <!-- <p><strong>Phone:</strong> <a href="tel:+12066501432">(206) 650-1432</a></p> -->
     <p><strong>Email:</strong> <a href="mailto:stiyche23@hotmail.com">stiyche23@hotmail.com</a></p>
     <p><strong>Linkedin:</strong> <a href="https://www.linkedin.com/in/siyche/">Linkedin</a></p>
   </div>
@@ -64,7 +64,6 @@ hide_description: true
             <h3>Caritas</h3>
             <p class="resume-entry-role">Software Engineer (Co-op)</p>
           </div>
-          <p class="resume-entry-dates">Aug 2025 - Present</p>
         </div>
         <ul>
           <li>Led the development of a full-stack MERN web application, collaborating in Agile sprints with 12 developers across web and iOS, and designing a unified backend data model with RESTful APIs for user management, to-dos, and secure document workflows.</li>
@@ -191,18 +190,12 @@ hide_description: true
         <h2>Education</h2>
       </div>
       <article class="resume-entry resume-entry-compact">
-        <p class="resume-entry-dates">Bachelor of Science</p>
         <h3>Software Engineering</h3>
         <p class="resume-entry-summary">Minor in Mathematics<br />California Polytechnic State University, San Luis Obispo<br />Expected June 2026</p>
       </article>
     </section>
 
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Coursework</h2>
-      </div>
-      <p class="resume-entry-summary">Systems Programming, Computer Architecture, Data Structures, Object Oriented Programming, Algorithms, Programming Languages, Databases, Computer Security, Discrete Structures, Networked, Distributed and Parallel Computing, SWE I-II, UI/UX, Data Visualization</p>
-    </section>
+
 
     <section class="resume-section">
       <div class="resume-section-heading">
