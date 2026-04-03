@@ -469,7 +469,7 @@ body.dark-mode .home-button.ghost {
 }
 
 .resume-Education {
-  background: rgb(55, 55, 55);
+  background: rgba(17, 39, 52, 0.08);
   border: 1px solid var(--site-line);
   border-radius: 1rem;
   margin: 0 0 1.5rem;
@@ -605,7 +605,11 @@ body.dark-mode .home-button.ghost {
 }
 
 .resume-entry-compact h3 {
-  margin-bottom: 0.35rem;
+  margin-bottom: 0;
+}
+
+.resume-entry-compact .resume-entry-summary {
+  margin-top: 0;
 }
 
 .resume-entry ul {
@@ -725,6 +729,10 @@ body.dark-mode .resume-tags span {
   color: var(--site-ink-soft);
 }
 
+body.dark-mode .resume-Education {
+  background: rgba(236, 235, 231, 0.08);
+}
+
 @media screen and (prefers-color-scheme: dark) {
   body:not(.light-mode):not(.dark-mode) .link-card span,
   body:not(.light-mode):not(.dark-mode) .home-list small {
@@ -768,6 +776,10 @@ body.dark-mode .resume-tags span {
     background: rgba(236, 235, 231, 0.08);
     border-color: rgba(236, 235, 231, 0.1);
     color: var(--site-ink-soft);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .resume-Education {
+    background: rgba(236, 235, 231, 0.08);
   }
 }
 

@@ -17,15 +17,19 @@ hide_description: true
   <p>Software Engineering student at Cal Poly with hands-on experience across MERN product development, geospatial AI research, autonomous systems, and technical team leadership. Most of my work sits at the intersection of product thinking and implementation: shipping usable systems, improving workflows, and making complex technical work clear enough to operate in the real world.</p>
 </section> -->
 
+
+
 <section class="resume-Education">
   <p class="resume-label">Education</p>
-  <p>California Polytechnic State University, San Luis Obispo<br /><em>Bachelor of Science in Software Engineering with Minor in Mathematics</em></p>
+  <p>California Polytechnic State University, San Luis Obispo<br /><em>Bachelor of Science in Computer Science, Minor in Mathematics</em></p>
 </section>
 
 <section class="resume-Education">
   <p class="resume-label">Coursework</p>
   <p>Systems Programming • Computer Architecture • Data Structures • Object Oriented Programming • Algorithms • Programming Languages • Databases • Computer Security • Discrete Structures • Networked, Distributed, and Parallel Computing • SWE I-II • UI/UX Design • Data Visualization</p> 
 </section>
+
+
 
   <!-- <div class="resume-actions">
     <a class="resume-chip" href="/assets/docs/Stephen-Chen-Resume.pdf">PDF</a>
@@ -47,7 +51,12 @@ hide_description: true
   </div>
 </section>
 
-
+<div class="resume-layout">
+  <div class="resume-main">
+    <section class="resume-section">
+      <div class="resume-section-heading">
+        <h2>Work Experience</h2>
+      </div>
 
       <article class="resume-entry">
         <div class="resume-entry-head">
