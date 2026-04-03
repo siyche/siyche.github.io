@@ -591,7 +591,8 @@ body.dark-mode .home-button.ghost {
 .resume-entry-dates {
   color: var(--site-ink-soft);
   font-size: 1rem;
-  margin-bottom: 0.35rem;
+  margin: 0;
+  padding-top: 0.40rem;
 }
 
 .resume-entry h3 {
