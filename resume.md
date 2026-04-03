@@ -85,146 +85,140 @@ hide_description: true
   </div>
 </section>
 
-<div class="resume-layout">
-  <div class="resume-main">
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Work Experience</h2>
-      </div>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>Caritas</h3>
-            <p class="resume-entry-role">Software Engineer (Co-op)</p>
-          </div>
-          <p class="resume-entry-dates">Aug 2025 - Present</p>
-        </div>
-        <ul>
-          <li>Led the development of a full-stack MERN web application, collaborating in Agile sprints with 12 developers across web and iOS, and designing a unified backend data model with RESTful APIs for user management, to-dos, and secure document workflows.</li>
-          <li>Implemented responsive React and Next.js interfaces with real-time map visualization, task notifications, and AI-powered transcription and report generation, improving usability while ensuring GDPR-compliant data handling.</li>
-        </ul>
-      </article>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>Intellisar AI for Search and Rescue</h3>
-            <p class="resume-entry-role">Student Researcher</p>
-          </div>
-          <p class="resume-entry-dates">Jun 2025 - Present</p>
-        </div>
-        <ul>
-          <li>Collaborated with NASA researchers and MIT students to analyze satellite imagery for search and rescue using Python, ArcGIS Pro, and QGIS, performing large-scale spatial data processing and georeferencing on Linux servers.</li>
-          <li>Developed and deployed ML-driven object detection models to identify critical terrain features, improving search area accuracy and contributing to open-source GIS tools and publication-grade research.</li>
-        </ul>
-      </article>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>Port of Seattle</h3>
-            <p class="resume-entry-role">Project Manager Intern, Aviation Ops Division</p>
-          </div>
-          <p class="resume-entry-dates">May 2023 - Sep 2023</p>
-        </div>
-        <ul>
-          <li>Redesigned and optimized document management workflows for aeronautical, cargo, and construction data, exceeding company goals by 270% while coordinating with cross-functional teams and stakeholders to keep outcomes reliable and high quality.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Projects</h2>
-      </div>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>Optical</h3>
-            <p class="resume-entry-role">Software Engineer, Founder and Frontend Team Lead</p>
-          </div>
-          <p class="resume-entry-dates">Jan 2025 - Aug 2025</p>
-        </div>
-        <ul>
-          <li>Led the design and delivery of a full-stack MERN calendar web app with real-time event management, iCalendar and CSV export, 2FA, role-based access control, monthly, weekly, and daily views, and a dynamic theming system.</li>
-          <li>Built CI/CD with Azure DevOps and automated tests across Jest and Cypress, cutting release cycles from days to hours and reaching 85%+ critical-path coverage without regressions.</li>
-        </ul>
-      </article>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>Cal Poly Autonomous Vessel</h3>
-            <p class="resume-entry-role">Software Team Lead</p>
-          </div>
-          <p class="resume-entry-dates">Sep 2023 - Sep 2025</p>
-        </div>
-        <ul>
-          <li>Led the software team to develop real-time autonomous navigation in Python and ROS with GPS, LiDAR, IMU, and Bluetooth integration; created Gazebo simulation environments to validate AI pathfinding and obstacle avoidance, reducing physical testing time by 40% and improving navigation accuracy by 30%.</li>
-        </ul>
-      </article>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>Custom Programming Languages</h3>
-            <p class="resume-entry-role">Developer</p>
-          </div>
-          <p class="resume-entry-dates">Sep 2023 - Jun 2024</p>
-        </div>
-        <ul>
-          <li>Developed ZODE and QTUM, inspired by Racket, Python, and C, featuring typed and untyped modes as well as mutable and immutable variants.</li>
-          <li>Built custom parsers and interpreters supporting pattern matching, recursive evaluation, lexical and dynamic scoping, custom environments, and macro-based interpreter pipelines.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Leadership</h2>
-      </div>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>Asian American Christian Fellowship</h3>
-            <p class="resume-entry-role">Director of Worship and Audio/Visual</p>
-            <p class="resume-entry-location">San Luis Obispo, CA</p>
-          </div>
-          <p class="resume-entry-dates">May 2023 - Present</p>
-        </div>
-        <ul>
-          <li>Directed and coordinated teams of 70+ members across media, worship, sound production, creative design, marketing, and A/V.</li>
-          <li>Collaborated with 15+ campuses and branch directors annually to plan and execute large-scale events for audiences of up to 5,000+.</li>
-          <li>Managed $20k budgets and five worship teams concurrently, leading multiple musical sets weekly while keeping execution seamless.</li>
-        </ul>
-      </article>
-
-      <article class="resume-entry">
-        <div class="resume-entry-head">
-          <div>
-            <h3>United States Air Force Civil Air Patrol Squadron PCR-069</h3>
-            <p class="resume-entry-role">Chief Master Sergeant Supervisor</p>
-            <p class="resume-entry-location">Renton, WA</p>
-          </div>
-          <p class="resume-entry-dates">May 2016 - Aug 2025</p>
-        </div>
-        <ul>
-          <li>Supervised and led the training and mentoring of 40+ cadets through weekly physical drills and precision drill-downs.</li>
-          <li>Instructed search-and-rescue, drone operations, and safety courses while maintaining compliance with Civil Air Patrol regulations.</li>
-        </ul>
-      </article>
-    </section>
+<section class="resume-section">
+  <div class="resume-section-heading">
+    <h2>Work Experience</h2>
   </div>
 
-  <aside class="resume-side">
-    <section class="resume-section">
-      <div class="resume-section-heading">
-        <h2>Publication</h2>
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>Caritas</h3>
+        <p class="resume-entry-role">Software Engineer (Co-op)</p>
       </div>
-      <p class="resume-entry-summary">Chen, Stephen. (2024). <em>Survey on the Effects of Poison Attacks on Large Language Models and Proposed Countermeasures</em>, 1-15.</p>
-    </section>
-  </aside>
-</div>
+      <p class="resume-entry-dates">Aug 2025 - Present</p>
+    </div>
+    <ul>
+      <li>Led the development of a full-stack MERN web application, collaborating in Agile sprints with 12 developers across web and iOS, and designing a unified backend data model with RESTful APIs for user management, to-dos, and secure document workflows.</li>
+      <li>Implemented responsive React and Next.js interfaces with real-time map visualization, task notifications, and AI-powered transcription and report generation, improving usability while ensuring GDPR-compliant data handling.</li>
+    </ul>
+  </article>
+
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>Intellisar AI for Search and Rescue</h3>
+        <p class="resume-entry-role">Student Researcher</p>
+      </div>
+      <p class="resume-entry-dates">Jun 2025 - Present</p>
+    </div>
+    <ul>
+      <li>Collaborated with NASA researchers and MIT students to analyze satellite imagery for search and rescue using Python, ArcGIS Pro, and QGIS, performing large-scale spatial data processing and georeferencing on Linux servers.</li>
+      <li>Developed and deployed ML-driven object detection models to identify critical terrain features, improving search area accuracy and contributing to open-source GIS tools and publication-grade research.</li>
+    </ul>
+  </article>
+
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>Port of Seattle</h3>
+        <p class="resume-entry-role">Project Manager Intern, Aviation Ops Division</p>
+      </div>
+      <p class="resume-entry-dates">May 2023 - Sep 2023</p>
+    </div>
+    <ul>
+      <li>Redesigned and optimized document management workflows for aeronautical, cargo, and construction data, exceeding company goals by 270% while coordinating with cross-functional teams and stakeholders to keep outcomes reliable and high quality.</li>
+    </ul>
+  </article>
+</section>
+
+<section class="resume-section">
+  <div class="resume-section-heading">
+    <h2>Projects</h2>
+  </div>
+
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>Optical</h3>
+        <p class="resume-entry-role">Software Engineer, Founder and Frontend Team Lead</p>
+      </div>
+      <p class="resume-entry-dates">Jan 2025 - Aug 2025</p>
+    </div>
+    <ul>
+      <li>Led the design and delivery of a full-stack MERN calendar web app with real-time event management, iCalendar and CSV export, 2FA, role-based access control, monthly, weekly, and daily views, and a dynamic theming system.</li>
+      <li>Built CI/CD with Azure DevOps and automated tests across Jest and Cypress, cutting release cycles from days to hours and reaching 85%+ critical-path coverage without regressions.</li>
+    </ul>
+  </article>
+
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>Cal Poly Autonomous Vessel</h3>
+        <p class="resume-entry-role">Software Team Lead</p>
+      </div>
+      <p class="resume-entry-dates">Sep 2023 - Sep 2025</p>
+    </div>
+    <ul>
+      <li>Led the software team to develop real-time autonomous navigation in Python and ROS with GPS, LiDAR, IMU, and Bluetooth integration; created Gazebo simulation environments to validate AI pathfinding and obstacle avoidance, reducing physical testing time by 40% and improving navigation accuracy by 30%.</li>
+    </ul>
+  </article>
+
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>Custom Programming Languages</h3>
+        <p class="resume-entry-role">Developer</p>
+      </div>
+      <p class="resume-entry-dates">Sep 2023 - Jun 2024</p>
+    </div>
+    <ul>
+      <li>Developed ZODE and QTUM, inspired by Racket, Python, and C, featuring typed and untyped modes as well as mutable and immutable variants.</li>
+      <li>Built custom parsers and interpreters supporting pattern matching, recursive evaluation, lexical and dynamic scoping, custom environments, and macro-based interpreter pipelines.</li>
+    </ul>
+  </article>
+</section>
+
+<section class="resume-section">
+  <div class="resume-section-heading">
+    <h2>Leadership</h2>
+  </div>
+
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>Asian American Christian Fellowship</h3>
+        <p class="resume-entry-role">Director of Worship and Audio/Visual</p>
+        <p class="resume-entry-location">San Luis Obispo, CA</p>
+      </div>
+      <p class="resume-entry-dates">May 2023 - Present</p>
+    </div>
+    <ul>
+      <li>Directed and coordinated teams of 70+ members across media, worship, sound production, creative design, marketing, and A/V.</li>
+      <li>Collaborated with 15+ campuses and branch directors annually to plan and execute large-scale events for audiences of up to 5,000+.</li>
+      <li>Managed $20k budgets and five worship teams concurrently, leading multiple musical sets weekly while keeping execution seamless.</li>
+    </ul>
+  </article>
+
+  <article class="resume-entry">
+    <div class="resume-entry-head">
+      <div>
+        <h3>United States Air Force Civil Air Patrol Squadron PCR-069</h3>
+        <p class="resume-entry-role">Chief Master Sergeant Supervisor</p>
+        <p class="resume-entry-location">Renton, WA</p>
+      </div>
+      <p class="resume-entry-dates">May 2016 - Aug 2025</p>
+    </div>
+    <ul>
+      <li>Supervised and led the training and mentoring of 40+ cadets through weekly physical drills and precision drill-downs.</li>
+      <li>Instructed search-and-rescue, drone operations, and safety courses while maintaining compliance with Civil Air Patrol regulations.</li>
+    </ul>
+  </article>
+</section>
+
+<section class="resume-section">
+  <div class="resume-section-heading">
+    <h2>Publication</h2>
+  </div>
+  <p class="resume-entry-summary">Chen, Stephen. (2024). <em>Survey on the Effects of Poison Attacks on Large Language Models and Proposed Countermeasures</em>, 1-15.</p>
+</section>
