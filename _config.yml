@@ -26,7 +26,7 @@ menu:
   - title: Showcase
     url: /showcase/
   - title: Resume
-    url: /resume/
+    url: /
   - title: GitHub
     url: https://github.com/siyche
     external: true
