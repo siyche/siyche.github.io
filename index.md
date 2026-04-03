@@ -80,13 +80,13 @@ no_breadcrumbs: true
   <article class="resume-entry">
     <div class="resume-entry-head">
       <div>
-        <h3>LIS</h3>
-        <p class="resume-entry-role">Lead Software Engineer</p>
+        <h3>SIL</h3>
+        <p class="resume-entry-role">UI/UX Designer & Software Engineer</p>
       </div>
       <p class="resume-entry-dates">March 2026</p>
     </div>
     <ul>
-      <li>Co-lead a team of 5 in developing an AI-powered verse segmentation tool that automatically detects verse boundaries, generates timestamped verse
+      <li>Co-lead a team of 5 in designing and developing an AI-powered verse segmentation tool that automatically detects verse boundaries, generates timestamped verse
       references, and streamlines translator workflows for a Bible translation mobile app used by 14,000+ users.</li>
     </ul>
   </article>
