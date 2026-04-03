@@ -5,24 +5,29 @@ hide_title: true
 hide_description: true
 ---
 
-<p class="resume-breadcrumb">Home / Resume</p>
+<p class="resume-breadcrumb">Home</p>
 
 <section class="resume-hero">
   <h1>Stephen Chen</h1>
   <p class="resume-role">Software engineer building full-stack products, applied AI systems, and practical interfaces.</p>
 </section>
 
-<section class="resume-summary">
+<!-- <section class="resume-summary">
   <p class="resume-label">Summary</p>
   <p>Software Engineering student at Cal Poly with hands-on experience across MERN product development, geospatial AI research, autonomous systems, and technical team leadership. Most of my work sits at the intersection of product thinking and implementation: shipping usable systems, improving workflows, and making complex technical work clear enough to operate in the real world.</p>
+</section> -->
+
+<section class="resume-Education">
+  <p class="resume-label">Education</p>
+  <p>California Polytechnic State University, San Luis Obispo<br />Bachelor of Science in Software Engineering with Minor in Mathematics</p> 
 </section>
 
-<div class="resume-actions">
-  <a class="resume-chip" href="/assets/docs/Stephen-Chen-Resume.pdf">PDF</a>
-  <a class="resume-chip" href="mailto:stiyche23@hotmail.com">Email</a>
-  <a class="resume-chip" href="https://github.com/siyche" rel="noopener noreferrer">GitHub</a>
-  <a class="resume-chip" href="/showcase/">Showcase</a>
-</div>
+  <!-- <div class="resume-actions">
+    <a class="resume-chip" href="/assets/docs/Stephen-Chen-Resume.pdf">PDF</a>
+    <a class="resume-chip" href="mailto:stiyche23@hotmail.com">Email</a>
+    <a class="resume-chip" href="https://github.com/siyche" rel="noopener noreferrer">GitHub</a>
+    <a class="resume-chip" href="/showcase/">Showcase</a>
+  </div> -->
 
 <section class="resume-contact-grid">
   <div class="resume-contact-column">
