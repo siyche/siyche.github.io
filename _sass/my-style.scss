@@ -299,6 +299,14 @@ body.dark-mode .home-button.ghost {
   padding: 1rem 1rem 0;
 }
 
+.showcase-frame-plain {
+  padding: 1rem;
+}
+
+.showcase-frame-plain .showcase-preview {
+  border-radius: 1.15rem;
+}
+
 .showcase-browser-bar {
   align-items: center;
   background: rgba(255, 255, 255, 0.72);
@@ -325,6 +333,39 @@ body.dark-mode .home-button.ghost {
   grid-template-columns: 30% 1fr;
   min-height: 19rem;
   overflow: hidden;
+}
+
+.showcase-preview-image {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(241, 243, 245, 0.9));
+  display: block;
+  min-height: 19rem;
+  padding: 1.1rem;
+  position: relative;
+}
+
+.showcase-preview-image::after {
+  background: linear-gradient(180deg, rgba(17, 39, 52, 0.03), rgba(17, 39, 52, 0.12));
+  border-radius: 0.8rem;
+  content: "";
+  inset: 1.1rem;
+  pointer-events: none;
+  position: absolute;
+}
+
+.showcase-cover {
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  display: block;
+  height: calc(19rem - 2.2rem);
+  object-fit: contain;
+  object-position: center;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
 
 .showcase-preview-sidebar {
@@ -774,6 +815,21 @@ body.dark-mode .resume-chip {
   color: var(--site-ink);
 }
 
+body.dark-mode .showcase-preview-image {
+  background:
+    linear-gradient(180deg, rgba(30, 29, 27, 0.92), rgba(24, 23, 21, 0.96));
+}
+
+body.dark-mode .showcase-preview-image::after {
+  background: linear-gradient(180deg, rgba(236, 235, 231, 0.02), rgba(0, 0, 0, 0.18));
+}
+
+body.dark-mode .showcase-cover {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+
 body.dark-mode .resume-tags span {
   background: rgba(236, 235, 231, 0.08);
   border-color: rgba(236, 235, 231, 0.1);
@@ -832,6 +888,21 @@ body.dark-mode .resume-Education {
   body:not(.light-mode):not(.dark-mode) .showcase-intro,
   body:not(.light-mode):not(.dark-mode) .resume-chip {
     color: var(--site-ink);
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-image {
+    background:
+      linear-gradient(180deg, rgba(30, 29, 27, 0.92), rgba(24, 23, 21, 0.96));
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-preview-image::after {
+    background: linear-gradient(180deg, rgba(236, 235, 231, 0.02), rgba(0, 0, 0, 0.18));
+  }
+
+  body:not(.light-mode):not(.dark-mode) .showcase-cover {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
   }
 
   body:not(.light-mode):not(.dark-mode) .resume-tags span {

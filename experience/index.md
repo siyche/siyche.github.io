@@ -12,24 +12,9 @@ description: Expanded case studies and role writeups.
 
 <div class="showcase-grid">
   <a class="showcase-card" href="/experience/sil/">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="showcase-preview showcase-preview-a">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-line medium"></div>
-          <div class="showcase-preview-grid">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
+    <div class="showcase-frame showcase-frame-plain">
+      <div class="showcase-preview showcase-preview-image">
+        <img class="showcase-cover" src="/assets/img/experience/SILLOGO.png" alt="SIL cover image" />
       </div>
     </div>
     <div class="showcase-copy">
@@ -40,23 +25,9 @@ description: Expanded case studies and role writeups.
   </a>
 
   <a class="showcase-card" href="/experience/caritas/">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="showcase-preview showcase-preview-b">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-line medium"></div>
-          <div class="showcase-preview-stack">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
+    <div class="showcase-frame showcase-frame-plain">
+      <div class="showcase-preview showcase-preview-image">
+        <img class="showcase-cover" src="/assets/img/experience/CARITAS.png" alt="Caritas cover image" />
       </div>
     </div>
     <div class="showcase-copy">
@@ -67,23 +38,9 @@ description: Expanded case studies and role writeups.
   </a>
 
   <a class="showcase-card" href="/experience/intellisar/">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="showcase-preview showcase-preview-c">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-grid wide">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
+    <div class="showcase-frame showcase-frame-plain">
+      <div class="showcase-preview showcase-preview-image">
+        <img class="showcase-cover" src="/assets/img/experience/Cal-Poly-Logo-Seal.png" alt="Intellisar cover image" />
       </div>
     </div>
     <div class="showcase-copy">
@@ -94,23 +51,9 @@ description: Expanded case studies and role writeups.
   </a>
 
   <a class="showcase-card" href="/experience/port-of-seattle/">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="showcase-preview showcase-preview-d">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line medium"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-stack tall">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
+    <div class="showcase-frame showcase-frame-plain">
+      <div class="showcase-preview showcase-preview-image">
+        <img class="showcase-cover" src="/assets/img/experience/Port_of_Seattle_Logo.svg.png" alt="Port of Seattle cover image" />
       </div>
     </div>
     <div class="showcase-copy">
