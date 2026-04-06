@@ -40,7 +40,7 @@ description: Expanded case studies and role writeups.
   <a class="showcase-card" href="/experience/intellisar/">
     <div class="showcase-frame showcase-frame-plain">
       <div class="showcase-preview showcase-preview-image">
-        <img class="showcase-cover" src="/assets/img/experience/Cal-Poly-Logo-Seal.png" alt="Intellisar cover image" />
+        <img class="showcase-cover showcase-cover-calpoly" src="/assets/img/experience/Cal-Poly-Logo-Seal.png" alt="Intellisar cover image" />
       </div>
     </div>
     <div class="showcase-copy">
@@ -53,7 +53,7 @@ description: Expanded case studies and role writeups.
   <a class="showcase-card" href="/experience/port-of-seattle/">
     <div class="showcase-frame showcase-frame-plain">
       <div class="showcase-preview showcase-preview-image">
-        <img class="showcase-cover" src="/assets/img/experience/Port_of_Seattle_Logo.svg.png" alt="Port of Seattle cover image" />
+        <img class="showcase-cover showcase-cover-port" src="/assets/img/experience/Port_of_Seattle_Logo.svg.png" alt="Port of Seattle cover image" />
       </div>
     </div>
     <div class="showcase-copy">

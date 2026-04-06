@@ -372,6 +372,14 @@ body.dark-mode .home-button.ghost {
   z-index: 1;
 }
 
+.showcase-cover-calpoly {
+  transform: scale(1.38);
+}
+
+.showcase-cover-port {
+  transform: scale(0.94);
+}
+
 .showcase-preview-sidebar {
   background:
     linear-gradient(180deg, rgba(6, 45, 56, 0.16), rgba(6, 45, 56, 0.42)),
