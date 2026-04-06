@@ -1,6 +1,6 @@
 ---
 layout: page
-title: SIL
+title: SIL Audio Project Manager Mobile & Web App
 description: UI/UX Designer and Software Engineer
 ---
 
