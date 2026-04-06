@@ -336,9 +336,11 @@ body.dark-mode .home-button.ghost {
 }
 
 .showcase-preview-image {
+  align-items: center;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(241, 243, 245, 0.9));
-  display: block;
+  display: flex;
+  justify-content: center;
   min-height: 19rem;
   padding: 1.1rem;
   position: relative;
@@ -359,12 +361,14 @@ body.dark-mode .home-button.ghost {
   border-radius: 0;
   box-shadow: none;
   display: block;
-  height: calc(19rem - 2.2rem);
+  height: auto;
+  max-height: calc(19rem - 2.2rem);
+  max-width: 100%;
   object-fit: contain;
   object-position: center;
   padding: 0;
   position: relative;
-  width: 100%;
+  width: auto;
   z-index: 1;
 }
 
