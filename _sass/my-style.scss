@@ -6,7 +6,9 @@
   --site-surface-strong: rgba(255, 255, 255, 0.88);
   --site-shadow: 0 24px 60px rgba(17, 39, 52, 0.08);
   --site-radius: 1.35rem;
-  --site-accent: rgb(198, 108, 73);
+  --site-accent: rgb(73, 100, 198);
+  --site-card-highlight: rgba(94, 145, 255, 0.42);
+  --site-card-highlight-shadow: rgba(59, 104, 190, 0.18);
 }
 
 body.dark-mode {
@@ -306,8 +308,8 @@ body.dark-mode .home-button.ghost {
 }
 
 .showcase-card:hover {
-  border-color: rgba(198, 108, 73, 0.35);
-  box-shadow: 0 28px 68px rgba(17, 39, 52, 0.14);
+  border-color: var(--site-card-highlight);
+  box-shadow: 0 28px 68px var(--site-card-highlight-shadow);
   transform: translateY(-3px);
 }
 
@@ -514,6 +516,13 @@ body.dark-mode .home-button.ghost {
   border-radius: 1.4rem;
   box-shadow: var(--site-shadow);
   overflow: hidden;
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.project-panel:hover {
+  border-color: var(--site-card-highlight);
+  box-shadow: 0 28px 68px var(--site-card-highlight-shadow);
+  transform: translateY(-2px);
 }
 
 .project-panel-header {
