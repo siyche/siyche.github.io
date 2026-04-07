@@ -25,10 +25,10 @@ menu:
     url: /experience/
   - title: Projects
     url: /showcase/
-  - title: Showcase
-    url: /projects/
   - title: About
     url: /about/
+  - title: Contact
+    url: /contact/
 
 permalink: pretty
 markdown: kramdown

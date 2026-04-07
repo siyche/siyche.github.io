@@ -248,11 +248,44 @@ body.dark-mode .home-button.ghost {
   text-decoration: none;
 }
 
+.contact-card {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.contact-card:hover,
+.contact-card:focus,
+.contact-card:focus-visible,
+.contact-card:active {
+  border-color: var(--site-card-highlight);
+  box-shadow:
+    inset 0 0 0 1px var(--site-card-highlight),
+    inset 0 -1px 0 1px var(--site-card-highlight),
+    0 28px 68px var(--site-card-highlight-shadow);
+  color: inherit;
+  outline-color: var(--site-card-highlight);
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
 .link-card span {
   color: var(--site-ink-soft);
   display: block;
   line-height: 1.55;
   margin-top: 0.35rem;
+}
+
+.contact-inline-link {
+  color: var(--site-accent);
+  text-decoration-color: rgba(94, 145, 255, 0.35);
+}
+
+.contact-inline-link:hover,
+.contact-inline-link:focus,
+.contact-inline-link:focus-visible {
+  color: var(--site-accent);
+  text-decoration-color: var(--site-card-highlight);
+  border-color: var(--site-card-highlight);
+  outline-color: var(--site-card-highlight);
 }
 
 .home-list {
