@@ -11,7 +11,7 @@
           <a href="{{ href | relative_url }}">{{ crumb | url_decode }}</a>
         {% else %}
           <span>{{ site.data.strings.breadcrumbs_separator | default:'/' }}</span>
-          <span>{{ crumbs | reverse | first | url_decode }}</span>
+          <span>{{ include.title | default:crumb | url_decode }}</span>
         {% endunless %}
       </li>
     {% endfor %}
