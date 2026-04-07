@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Showcase
+title: Projects
 description: Selected projects, site concepts, and places to link your own work.
 ---
 

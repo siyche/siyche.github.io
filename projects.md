@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Projects
+title: Showcase
 description: A place for selected builds, experiments, and repository links.
 ---
 
@@ -8,7 +8,7 @@ description: A place for selected builds, experiments, and repository links.
 
 <div class="link-card-grid">
   <a class="link-card" href="/showcase/">
-    <strong>Showcase</strong>
+    <strong>Projects</strong>
     <span>Featured projects presented as larger visual cards.</span>
   </a>
   <a class="link-card" href="https://github.com/siyche" rel="me noopener noreferrer">
@@ -25,7 +25,7 @@ description: A place for selected builds, experiments, and repository links.
   <p class="home-kicker">How To Use This Page</p>
   <ul class="home-list">
     <li>
-      <a href="/showcase/">Put polished project writeups in Showcase</a>
+      <a href="/showcase/">Put polished project writeups in Projects</a>
       <small>Best for links you want people to click first.</small>
     </li>
     <li>

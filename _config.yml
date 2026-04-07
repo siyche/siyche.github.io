@@ -23,9 +23,9 @@ theme_color: rgb(17,39,52)
 menu:
   - title: Experience
     url: /experience/
-  - title: Showcase
-    url: /showcase/
   - title: Projects
+    url: /showcase/
+  - title: Showcase
     url: /projects/
   - title: About
     url: /about/
