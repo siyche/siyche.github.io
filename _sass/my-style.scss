@@ -309,7 +309,10 @@ body.dark-mode .home-button.ghost {
 
 .showcase-card:hover {
   border-color: var(--site-card-highlight);
-  box-shadow: 0 28px 68px var(--site-card-highlight-shadow);
+  box-shadow:
+    inset 0 0 0 1px var(--site-card-highlight),
+    inset 0 -1px 0 1px var(--site-card-highlight),
+    0 28px 68px var(--site-card-highlight-shadow);
   transform: translateY(-3px);
 }
 
@@ -317,7 +320,10 @@ body.dark-mode .home-button.ghost {
 .showcase-card:focus-visible,
 .showcase-card:active {
   border-color: var(--site-card-highlight);
-  box-shadow: 0 28px 68px var(--site-card-highlight-shadow);
+  box-shadow:
+    inset 0 0 0 1px var(--site-card-highlight),
+    inset 0 -1px 0 1px var(--site-card-highlight),
+    0 28px 68px var(--site-card-highlight-shadow);
   outline-color: var(--site-card-highlight);
   text-decoration: none;
 }
@@ -530,13 +536,19 @@ body.dark-mode .home-button.ghost {
 
 .project-panel:hover {
   border-color: var(--site-card-highlight);
-  box-shadow: 0 28px 68px var(--site-card-highlight-shadow);
+  box-shadow:
+    inset 0 0 0 1px var(--site-card-highlight),
+    inset 0 -1px 0 1px var(--site-card-highlight),
+    0 28px 68px var(--site-card-highlight-shadow);
   transform: translateY(-2px);
 }
 
 .project-panel:focus-within {
   border-color: var(--site-card-highlight);
-  box-shadow: 0 28px 68px var(--site-card-highlight-shadow);
+  box-shadow:
+    inset 0 0 0 1px var(--site-card-highlight),
+    inset 0 -1px 0 1px var(--site-card-highlight),
+    0 28px 68px var(--site-card-highlight-shadow);
 }
 
 .nav-btn:focus,
