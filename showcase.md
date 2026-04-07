@@ -4,119 +4,82 @@ title: Projects
 description: Selected projects, site concepts, and places to link your own work.
 ---
 
-<p class="lead">A gallery for projects, experiments, and finished work. The first card is now a real project entry, and the remaining cards are still placeholders you can replace as you add more.</p>
+<p class="lead">A selected list of projects built around product delivery, systems thinking, and implementation depth. Each entry separates the project header, short summary, and core technologies so the page is easy to scan.</p>
 
 <div class="showcase-intro">
-  <p><strong>How to use this page:</strong> edit the card title, subtitle, and <code>href</code> values below. If you later want real screenshots instead of the built-in placeholders, swap the preview block for an image.</p>
+  <p><strong>How to use this page:</strong> keep each project card focused on three things: what it is, when it happened, and the technologies that matter. Add repo or live links only where they help someone go deeper.</p>
 </div>
 
-<div class="showcase-grid">
-  <a class="showcase-card" href="https://github.com/PolyVessel" rel="noopener noreferrer" target="_blank">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="showcase-preview showcase-preview-a">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-grid">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
+<div class="project-list">
+  <article class="project-panel">
+    <div class="project-panel-header">
+      <h2>Optical</h2>
     </div>
-    <div class="showcase-copy">
-      <strong>Cal Poly Autonomous Vessel</strong>
-      <span>The software repository for our autonomous vessel project, focused on navigation, robotics integration, and real-world validation.</span>
-      <small>GitHub repo for the Cal Poly team project.</small>
+    <div class="project-panel-body">
+      <p class="project-panel-date">Jan 2025 - Aug 2025</p>
+      <p class="project-panel-description">Served as founder and frontend team lead on a full-stack calendar web app with real-time event management, iCalendar and CSV export, two-factor authentication, role-based access control, monthly, weekly, and daily views, and a dynamic theming system backed by automated testing.</p>
+      <p class="project-panel-label">Technologies</p>
+      <div class="resume-tags">
+        <span>MERN</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>iCalendar</span>
+        <span>CSV Export</span>
+        <span>2FA</span>
+        <span>RBAC</span>
+        <span>Jest</span>
+        <span>Cypress</span>
+        <span>Theming</span>
+      </div>
+      <p class="project-panel-link"><a href="#">Add Project Link</a></p>
     </div>
-  </a>
+  </article>
 
-  <a class="showcase-card" href="/experience/">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="showcase-preview showcase-preview-b">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-line medium"></div>
-          <div class="showcase-preview-stack">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
+  <article class="project-panel">
+    <div class="project-panel-header">
+      <h2>Cal Poly Autonomous Vessel</h2>
     </div>
-    <div class="showcase-copy">
-      <strong>Project Title Two</strong>
-      <span>A portfolio piece, case study, or product concept.</span>
-      <small>Point this at a deployed project, repo, or writeup.</small>
+    <div class="project-panel-body">
+      <p class="project-panel-date">Sep 2023 - Sep 2025</p>
+      <p class="project-panel-description">Led the software team developing real-time autonomous navigation in Python and ROS with GPS, LiDAR, IMU, and Bluetooth integration. Built Gazebo simulation environments to validate AI pathfinding and obstacle avoidance, reducing physical testing time by 40% and improving navigation accuracy by 30%.</p>
+      <p class="project-panel-label">Technologies</p>
+      <div class="resume-tags">
+        <span>Python</span>
+        <span>ROS</span>
+        <span>Gazebo</span>
+        <span>GPS</span>
+        <span>LiDAR</span>
+        <span>IMU</span>
+        <span>Bluetooth</span>
+        <span>Pathfinding</span>
+        <span>Obstacle Avoidance</span>
+      </div>
+      <p class="project-panel-link"><a href="https://github.com/PolyVessel" rel="noopener noreferrer" target="_blank">Repository</a></p>
     </div>
-  </a>
+  </article>
 
-  <a class="showcase-card" href="#">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="showcase-preview showcase-preview-c">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-grid wide">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
+  <article class="project-panel">
+    <div class="project-panel-header">
+      <h2>Custom Programming Languages</h2>
     </div>
-    <div class="showcase-copy">
-      <strong>Project Title Three</strong>
-      <span>Use this slot for a client project, redesign, or experiment.</span>
-      <small>Replace <code>#</code> with your own link.</small>
-    </div>
-  </a>
-
-  <a class="showcase-card" href="#">
-    <div class="showcase-frame">
-      <div class="showcase-browser-bar">
-        <span></span>
-        <span></span>
-        <span></span>
+    <div class="project-panel-body">
+      <p class="project-panel-date">Sep 2023 - Jun 2024</p>
+      <p class="project-panel-description">Developed ZODE and QTUM, inspired by Racket, Python, and C, with typed and untyped variants as well as mutable and immutable models. Built the parsers and interpreters needed to support pattern matching, recursive evaluation, and lexical and dynamic scoping.</p>
+      <p class="project-panel-label">Technologies</p>
+      <div class="resume-tags">
+        <span>ZODE</span>
+        <span>QTUM</span>
+        <span>Python</span>
+        <span>C</span>
+        <span>Racket</span>
+        <span>Parsers</span>
+        <span>Interpreters</span>
+        <span>Pattern Matching</span>
+        <span>Recursive Evaluation</span>
+        <span>Lexical Scoping</span>
+        <span>Dynamic Scoping</span>
       </div>
-      <div class="showcase-preview showcase-preview-d">
-        <div class="showcase-preview-sidebar"></div>
-        <div class="showcase-preview-main">
-          <div class="showcase-preview-line short"></div>
-          <div class="showcase-preview-line medium"></div>
-          <div class="showcase-preview-line"></div>
-          <div class="showcase-preview-stack tall">
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-      </div>
+      <p class="project-panel-link"><a href="#">Add Project Link</a></p>
     </div>
-    <div class="showcase-copy">
-      <strong>Project Title Four</strong>
-      <span>Another placeholder for something you want to feature prominently.</span>
-      <small>Duplicate cards as needed once you start filling this in.</small>
-    </div>
-  </a>
+  </article>
 </div>

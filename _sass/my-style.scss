@@ -502,6 +502,68 @@ body.dark-mode .home-button.ghost {
   margin-bottom: 0.45rem;
 }
 
+.project-list {
+  display: grid;
+  gap: 1.4rem;
+  margin-top: 2rem;
+}
+
+.project-panel {
+  background: linear-gradient(180deg, var(--site-surface-strong), var(--site-surface));
+  border: 1px solid var(--site-line);
+  border-radius: 1.4rem;
+  box-shadow: var(--site-shadow);
+  overflow: hidden;
+}
+
+.project-panel-header {
+  border-bottom: 1px solid var(--site-line);
+  padding: 1.15rem 1.35rem 1rem;
+}
+
+.project-panel-header h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.project-panel-body {
+  padding: 1.2rem 1.35rem 1.35rem;
+}
+
+.project-panel-date {
+  color: var(--site-ink-soft);
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 1rem;
+}
+
+.project-panel-description {
+  color: var(--site-ink);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0 0 1.1rem;
+}
+
+.project-panel-label {
+  color: var(--site-ink);
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.7rem;
+  text-transform: uppercase;
+}
+
+.project-panel-link {
+  margin: 1rem 0 0;
+}
+
+.project-panel-link a {
+  color: var(--site-accent);
+  font-weight: 700;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
 .resume-breadcrumb {
   color: var(--site-ink-soft);
   font-size: 0.78rem;
