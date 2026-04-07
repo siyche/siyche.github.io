@@ -13,8 +13,8 @@ body.dark-mode {
   --site-ink: rgb(236, 235, 231);
   --site-ink-soft: rgba(236, 235, 231, 0.74);
   --site-line: rgba(255, 255, 255, 0.1);
-  --site-surface: rgba(31, 29, 27, 0.84);
-  --site-surface-strong: rgba(40, 37, 35, 0.92);
+  --site-surface: rgba(31, 33, 36, 0.84);
+  --site-surface-strong: rgba(40, 43, 47, 0.92);
   --site-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
 }
 
@@ -23,8 +23,8 @@ body.dark-mode {
     --site-ink: rgb(236, 235, 231);
     --site-ink-soft: rgba(236, 235, 231, 0.74);
     --site-line: rgba(255, 255, 255, 0.1);
-    --site-surface: rgba(31, 29, 27, 0.84);
-    --site-surface-strong: rgba(40, 37, 35, 0.92);
+    --site-surface: rgba(31, 33, 36, 0.84);
+    --site-surface-strong: rgba(40, 43, 47, 0.92);
     --site-shadow: 0 24px 60px rgba(0, 0, 0, 0.32);
   }
 }
@@ -908,7 +908,7 @@ body.dark-mode .resume-chip {
 
 body.dark-mode .showcase-preview-image {
   background:
-    linear-gradient(180deg, rgba(30, 29, 27, 0.92), rgba(24, 23, 21, 0.96));
+    linear-gradient(180deg, rgba(27, 29, 32, 0.92), rgba(21, 23, 26, 0.96));
 }
 
 body.dark-mode .showcase-preview-image::after {
@@ -949,7 +949,7 @@ body.dark-mode .resume-Education {
   }
 
   body:not(.light-mode):not(.dark-mode) .showcase-browser-bar {
-    background: rgba(39, 36, 34, 0.86);
+    background: rgba(38, 40, 44, 0.86);
     border-color: rgba(255, 255, 255, 0.08);
   }
 
@@ -962,7 +962,7 @@ body.dark-mode .resume-Education {
   body:not(.light-mode):not(.dark-mode) .showcase-preview-b .showcase-preview-main,
   body:not(.light-mode):not(.dark-mode) .showcase-preview-c .showcase-preview-main,
   body:not(.light-mode):not(.dark-mode) .showcase-preview-d .showcase-preview-main {
-    background: rgba(24, 23, 21, 0.96);
+    background: rgba(21, 23, 26, 0.96);
   }
 
   body:not(.light-mode):not(.dark-mode) .showcase-preview-line,
@@ -983,7 +983,7 @@ body.dark-mode .resume-Education {
 
   body:not(.light-mode):not(.dark-mode) .showcase-preview-image {
     background:
-      linear-gradient(180deg, rgba(30, 29, 27, 0.92), rgba(24, 23, 21, 0.96));
+      linear-gradient(180deg, rgba(27, 29, 32, 0.92), rgba(21, 23, 26, 0.96));
   }
 
   body:not(.light-mode):not(.dark-mode) .showcase-preview-image::after {
