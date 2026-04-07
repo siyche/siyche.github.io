@@ -59,6 +59,22 @@ h4,
   font-size: 1.1rem;
 }
 
+.page-subtitle {
+  color: var(--site-ink-soft);
+  font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: -0.35rem 0 0.35rem;
+}
+
+.page-meta {
+  color: var(--site-ink-soft);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  margin: 0 0 1rem;
+}
+
 #_sidebar {
   align-items: flex-start;
 }
@@ -514,6 +530,7 @@ body.dark-mode .home-button.ghost {
   font-weight: 700;
   margin: 0.55rem 0 0;
 }
+
 
 .resume-summary {
   border-left: 1px solid var(--site-line);

@@ -22,6 +22,12 @@ layout: base
     {% unless page.hide_title %}
     <h1 class="page-title">{{ page.title }}</h1>
     {% endunless %}
+    {% if page.header_subtitle %}
+    <p class="page-subtitle">{{ page.header_subtitle }}</p>
+    {% endif %}
+    {% if page.header_meta %}
+    <p class="page-meta">{{ page.header_meta }}</p>
+    {% endif %}
     {% include components/message.html text=page.description hide=page.hide_description %}
   </header>
 
