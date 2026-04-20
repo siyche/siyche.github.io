@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About
-description: What I value in my work and what this site is meant to hold.
+description: 
 menu: true
 order: 1
 ---
@@ -27,11 +27,6 @@ order: 1
   </section>
 </div>
 
-## A useful About page usually covers
 
-- what you build or study
-- what kind of problems you like working on
-- how you think about quality
-- where people can see the work in practice
 
-<!--author-->
+

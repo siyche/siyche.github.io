@@ -1,14 +1,10 @@
 ---
 layout: page
 title: Experience
-description: Expanded case studies and role writeups.
+description: 
 ---
 
-<p class="lead">A closer look at the roles that shaped how I build: product delivery, research, systems work, and operating across teams. Each card opens into its own page.</p>
 
-<div class="showcase-intro">
-  <p><strong>How to use this page:</strong> treat each card as an expandable section of your resume. The card is the summary view; the destination page is the full writeup.</p>
-</div>
 
 <div class="showcase-grid">
   <a class="showcase-card no-hover" href="/experience/sil/">
