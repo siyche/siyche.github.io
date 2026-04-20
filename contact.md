@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Contact
-description: The easiest ways to reach me and follow my work.
+description:
 ---
 
 <div class="contact-page">
-  <p class="lead">The best way to reach me is by email. If you want to see current work, source code, or professional history, use the links below.</p>
+  <!-- <p class="lead">The best way to reach me is by email. If you want to see current work, source code, or professional history, use the links below.</p> -->
 
   <div class="link-card-grid">
     <a class="link-card contact-card no-hover" href="mailto:stiyche23@hotmail.com">

@@ -6,9 +6,11 @@ menu: true
 order: 1
 ---
 
-<p class="lead">I care about clear interfaces, durable front-end systems, and work that stays readable after the launch rush fades.</p>
+<p class="lead">I’m Stephen, a software engineer based in Seattle, Washington. My interests are centered on building reliable, practical software that has a meaningful role in day-to-day life, especially where digital systems connect with the physical world.
 
-<div class="about-grid">
+I value thoughtful engineering, useful products, and teams that move with urgency while maintaining a high standard for quality. Outside of work, I enjoy playing music and going outdoors.</p>
+
+<!-- <div class="about-grid">
   <section class="about-card">
     <h2>How I work</h2>
     <p>I like strong defaults, small abstractions, and pages that explain themselves. The goal is not just to ship something that works once, but to leave behind structure that stays useful.</p>
@@ -29,4 +31,4 @@ order: 1
 
 
 
-
+ -->
