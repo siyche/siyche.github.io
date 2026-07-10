@@ -6,11 +6,11 @@ description:
 
 
 
-<div class="showcase-grid">
-  <a class="showcase-card no-hover" href="/experience/sil/">
-    <div class="showcase-frame showcase-frame-plain">
+<div class="showcase-grid experience-grid">
+  <a class="showcase-card experience-card no-hover" href="/experience/sil/">
+    <div class="showcase-frame showcase-frame-plain experience-logo-frame">
       <div class="showcase-preview showcase-preview-image">
-        <img class="showcase-cover" src="/assets/img/experience/SILLOGO.png" alt="SIL cover image" />
+        <img class="showcase-cover experience-logo-square" src="/assets/img/experience/SILLOGO.png" alt="SIL cover image" />
       </div>
     </div>
     <div class="showcase-copy">
@@ -20,10 +20,10 @@ description:
     </div>
   </a>
 
-  <a class="showcase-card no-hover" href="/experience/caritas/">
-    <div class="showcase-frame showcase-frame-plain">
+  <a class="showcase-card experience-card no-hover" href="/experience/caritas/">
+    <div class="showcase-frame showcase-frame-plain experience-logo-frame">
       <div class="showcase-preview showcase-preview-image">
-        <img class="showcase-cover" src="/assets/img/experience/CARITAS.png" alt="Caritas cover image" />
+        <img class="showcase-cover experience-logo-square" src="/assets/img/experience/CARITAS.png" alt="Caritas cover image" />
       </div>
     </div>
     <div class="showcase-copy">
@@ -33,10 +33,10 @@ description:
     </div>
   </a>
 
-  <a class="showcase-card no-hover" href="/experience/intellisar/">
-    <div class="showcase-frame showcase-frame-plain">
+  <a class="showcase-card experience-card no-hover" href="/experience/intellisar/">
+    <div class="showcase-frame showcase-frame-plain experience-logo-frame">
       <div class="showcase-preview showcase-preview-image">
-        <img class="showcase-cover showcase-cover-calpoly" src="/assets/img/experience/Cal-Poly-Logo-Seal.png" alt="Intellisar cover image" />
+        <img class="showcase-cover showcase-cover-calpoly experience-logo-wide" src="/assets/img/experience/Cal-Poly-Logo-Seal.png" alt="Intellisar cover image" />
       </div>
     </div>
     <div class="showcase-copy">
@@ -46,10 +46,10 @@ description:
     </div>
   </a>
 
-  <a class="showcase-card no-hover" href="/experience/port-of-seattle/">
-    <div class="showcase-frame showcase-frame-plain">
+  <a class="showcase-card experience-card no-hover" href="/experience/port-of-seattle/">
+    <div class="showcase-frame showcase-frame-plain experience-logo-frame">
       <div class="showcase-preview showcase-preview-image">
-        <img class="showcase-cover showcase-cover-port" src="/assets/img/experience/Port_of_Seattle_Logo.svg.png" alt="Port of Seattle cover image" />
+        <img class="showcase-cover showcase-cover-port experience-logo-wide" src="/assets/img/experience/Port_of_Seattle_Logo.svg.png" alt="Port of Seattle cover image" />
       </div>
     </div>
     <div class="showcase-copy">

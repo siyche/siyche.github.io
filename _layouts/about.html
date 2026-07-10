@@ -35,12 +35,11 @@ layout: base
   {% endif %}
 
   <header>
+    {% unless page.hide_title %}
     <h1 class="page-title">{{ page.title }}</h1>
+    {% endunless %}
     {% include components/message.html text=page.description hide=page.hide_description %}
   </header>
 
   {{ content }}
 </article>
-
-{% include components/dingbat.html %}
-{% include body/comments.html %}

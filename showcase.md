@@ -1,13 +1,10 @@
 ---
 layout: page
 title: Projects
+hide_title: true
+hide_description: true
+no_breadcrumbs: true
 ---
-
-<!-- <p class="lead">A selected list of projects built around product delivery, systems thinking, and implementation depth. Each entry separates the project header, short summary, and core technologies so the page is easy to scan.</p>
-
-<div class="showcase-intro">
-  <p><strong>How to use this page:</strong> keep each project card focused on three things: what it is, when it happened, and the technologies that matter. Add repo or live links only where they help someone go deeper.</p>
-</div> -->
 
 <div class="project-list">
   <article class="project-panel">

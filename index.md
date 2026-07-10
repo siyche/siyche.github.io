@@ -6,21 +6,30 @@ hide_description: true
 no_breadcrumbs: true
 ---
 
-<p class="resume-breadcrumb">Home</p>
-
 <section class="resume-hero">
+  <p class="resume-kicker">Hello, I'm</p>
   <h1>Stephen Chen</h1>
   <p class="resume-role">Software Engineer</p>
+  <p class="resume-intro">I build thoughtful, performant software with an interest<br />in systems, security, and human-centered interfaces.</p>
+  <div class="resume-actions">
+    <a class="resume-action primary" href="{{ '/showcase/' | relative_url }}"><span class="icon-arrow-right2" aria-hidden="true"></span>View Projects</a>
+    <a class="resume-action" href="{{ '/assets/docs/Stephen-Chen-Resume.pdf' | relative_url }}"><span class="icon-file-pdf" aria-hidden="true"></span>Resume</a>
+  </div>
 </section>
 
-<section class="resume-Education">
-  <p class="resume-label">Education</p>
-  <p>California Polytechnic State University, San Luis Obispo<br /><em>Bachelor of Science in Computer Science, Minor in Mathematics</em></p>
+<section class="resume-Education resume-education-card">
+  <div class="resume-card-copy">
+    <p class="resume-label">Education</p>
+    <p><strong>California Polytechnic State University, San Luis Obispo</strong><br /><em>Bachelor of Science in Computer Science, Minor in Mathematics</em></p>
+  </div>
+  <p class="resume-card-date"><span class="icon-history" aria-hidden="true"></span>Expected 2025</p>
 </section>
 
-<section class="resume-Education">
-  <p class="resume-label">Coursework</p>
-  <p>Systems Programming, Computer Architecture, Data Structures, Object Oriented Programming, Algorithms, Programming Languages, Databases, Computer Security, Discrete Structures, Networked, Distributed, and Parallel Computing, SWE I-II, UI/UX Design, Data Visualization</p>
+<section class="resume-Education resume-coursework-card">
+  <div class="resume-card-copy">
+    <p class="resume-label">Coursework</p>
+    <p>Systems Programming, Computer Architecture, Data Structures, Object Oriented Programming, Algorithms, Programming Languages, Databases, Computer Security, Discrete Structures, Networked, Distributed, and Parallel Computing, SWE I-II, UI/UX Design, Data Visualization</p>
+  </div>
 </section>
 
 <section class="resume-Education resume-skills-card">

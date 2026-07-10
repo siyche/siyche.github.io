@@ -1,14 +1,61 @@
 <div class="sidebar-sticky">
   <div class="sidebar-about">
-    <a class="sidebar-title" href="{{ '/' | relative_url }}"><h2 class="h1">Home</h2></a>
+    <a class="sidebar-title" href="{{ '/' | relative_url }}"><h2 class="h1">{{ site.title }}</h2></a>
+    <p class="sidebar-role">Software Engineer</p>
   </div>
 
   <nav class="sidebar-nav heading" role="navigation">
-    {% include body/nav.html %}
+    <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}</span>
+    <ul>
+      {% assign home_active = false %}
+      {% if page.url == "/" or page.url == "/index.html" %}
+        {% assign home_active = true %}
+      {% endif %}
+
+      <li>
+        <a class="sidebar-nav-item{% if home_active %} active{% endif %}" href="{{ '/' | relative_url }}">
+          <span class="sidebar-nav-icon icon-home3" aria-hidden="true"></span>
+          <span>Home</span>
+        </a>
+      </li>
+
+      {% for item in site.menu %}
+        {% assign item_title = item.title | default:item.name %}
+        {% assign title_down = item_title | downcase %}
+        {% assign icon = "icon-file-empty" %}
+        {% if title_down contains "experience" %}
+          {% assign icon = "icon-briefcase" %}
+        {% elsif title_down contains "about" %}
+          {% assign icon = "icon-user-plus" %}
+        {% elsif title_down contains "contact" %}
+          {% assign icon = "icon-mail" %}
+        {% endif %}
+
+        {% assign active = false %}
+        {% if page.url == item.url %}
+          {% assign active = true %}
+        {% elsif item.url != "/" and page.url contains item.url %}
+          {% assign active = true %}
+        {% endif %}
+
+        <li>
+          <a class="sidebar-nav-item{% if active %} active{% endif %}" href="{{ item.url | relative_url }}">
+            {% if title_down contains "project" %}
+              <span class="sidebar-nav-icon nav-code-icon" aria-hidden="true"></span>
+            {% else %}
+              <span class="sidebar-nav-icon {{ icon }}" aria-hidden="true"></span>
+            {% endif %}
+            <span>{{ item_title }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
   </nav>
 
   {% assign author = site.author %}
   <div class="sidebar-social">
     {% include components/social.html author=author %}
   </div>
+
+  <p class="sidebar-copyright">&copy; 2024 {{ site.title }}<br />All rights reserved.</p>
 </div>
