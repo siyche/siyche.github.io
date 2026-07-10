@@ -10,7 +10,7 @@ no_breadcrumbs: true
   <p class="resume-kicker">Hello, I'm</p>
   <h1>Stephen Chen</h1>
   <p class="resume-role">Software Engineer</p>
-  <p class="resume-intro">I build thoughtful, performant software with an interest<br />in systems, security, and human-centered interfaces.</p>
+  <p class="resume-intro"> </p>
   <div class="resume-actions">
     <a class="resume-action primary" href="{{ '/showcase/' | relative_url }}"><span class="icon-arrow-right2" aria-hidden="true"></span>View Projects</a>
     <a class="resume-action" href="{{ '/assets/docs/Stephen-Chen-Resume.pdf' | relative_url }}"><span class="icon-file-pdf" aria-hidden="true"></span>Resume</a>
@@ -22,7 +22,7 @@ no_breadcrumbs: true
     <p class="resume-label">Education</p>
     <p><strong>California Polytechnic State University, San Luis Obispo</strong><br /><em>Bachelor of Science in Computer Science, Minor in Mathematics</em></p>
   </div>
-  <p class="resume-card-date"><span class="icon-history" aria-hidden="true"></span>Expected 2025</p>
+  <p class="resume-card-date"><span class="icon-history" aria-hidden="true"></span>June 2026</p>
 </section>
 
 <section class="resume-Education resume-coursework-card">
