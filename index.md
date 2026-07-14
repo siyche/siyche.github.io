@@ -10,7 +10,7 @@ no_breadcrumbs: true
   <p class="resume-kicker">Hello, I'm</p>
   <h1>Stephen Chen</h1>
   <p class="resume-role">Software Engineer</p>
-  <p class="resume-intro">I build thoughtful, performant software with an interest<br />in systems, security, and human-centered interfaces.</p>
+  <p class="resume-intro">  </p>
   <div class="resume-actions">
     <a class="resume-action primary" href="{{ '/showcase/' | relative_url }}"><span class="icon-arrow-right2" aria-hidden="true"></span>View Projects</a>
     <a class="resume-action" href="{{ '/assets/docs/Stephen-Chen-Resume.pdf' | relative_url }}"><span class="icon-file-pdf" aria-hidden="true"></span>Resume</a>
