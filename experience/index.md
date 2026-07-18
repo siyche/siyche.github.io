@@ -15,8 +15,8 @@ description:
     </div>
     <div class="showcase-copy">
       <strong>SIL</strong>
-      <span>AI-assisted verse segmentation, translation tooling, and a production-facing mobile workflow.</span>
-      <small>UI/UX Designer and Software Engineer, March 2026.</small>
+      <span>UI/UX Designer and Software Engineer</span>
+      <small>Mar 2026 - Jun 2026</small>
     </div>
   </a>
 
@@ -28,8 +28,8 @@ description:
     </div>
     <div class="showcase-copy">
       <strong>Caritas</strong>
-      <span>Full-stack MERN product work across web and iOS, with maps, notifications, and AI-assisted workflows.</span>
-      <small>Software Engineer (Co-op), Aug 2025 to present.</small>
+      <span>Software Engineer (Co-op)</span>
+      <small>Aug 2025 - Jun 2026</small>
     </div>
   </a>
 
@@ -41,8 +41,8 @@ description:
     </div>
     <div class="showcase-copy">
       <strong>Intellisar AI for Search and Rescue</strong>
-      <span>Geospatial ML research using satellite imagery, Linux pipelines, and open-source GIS tooling.</span>
-      <small>Student Researcher, Jun 2025 to present.</small>
+      <span>AI Drone Researcher</span>
+      <small>Jun 2025 - Jun 2026</small>
     </div>
   </a>
 
@@ -54,8 +54,21 @@ description:
     </div>
     <div class="showcase-copy">
       <strong>Port of Seattle</strong>
-      <span>Operations process redesign, documentation systems, and measurable workflow improvement.</span>
-      <small>Project Manager Intern, May 2023 to Sep 2023.</small>
+      <span>Project Manager Intern</span>
+      <small>May 2023 - Sep 2023</small>
+    </div>
+  </a>
+
+  <a class="showcase-card experience-card no-hover" href="/experience/bluesky/">
+    <div class="showcase-frame showcase-frame-plain experience-logo-frame">
+      <div class="showcase-preview showcase-preview-image">
+        <img class="showcase-cover experience-logo-wide experience-logo-bluesky" src="/assets/img/experience/bluesky.png" alt="Bluesky Photography cover image" />
+      </div>
+    </div>
+    <div class="showcase-copy">
+      <strong>Bluesky Photography</strong>
+      <span>Licensed UAS Pilot & Real Estate Photographer</span>
+      <small>May 2026 - Present</small>
     </div>
   </a>
 </div>

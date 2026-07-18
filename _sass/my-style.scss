@@ -972,6 +972,116 @@ main.content {
   max-width: 78%;
 }
 
+.content .experience-logo-frame .experience-logo-bluesky {
+  max-height: 72%;
+  max-width: 90%;
+  object-position: center;
+}
+
+.photography-hero {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.photography-brand-frame {
+  align-items: center;
+  aspect-ratio: 16 / 7;
+  background:
+    radial-gradient(circle at 50% 35%, rgba(99, 224, 218, 0.05), transparent 62%),
+    rgba(255, 255, 255, 0.045);
+  border: 1px solid var(--portfolio-line);
+  border-radius: 0.75rem;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.photography-brand-frame img {
+  display: block;
+  height: auto;
+  max-height: 82%;
+  max-width: 88%;
+  object-fit: contain;
+  object-position: center;
+  width: auto;
+}
+
+.photography-property-card {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid var(--portfolio-line);
+  border-radius: 0.75rem;
+  display: grid;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.photography-property-head {
+  align-items: baseline;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.photography-property-head h3 {
+  color: var(--portfolio-ink);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.photography-property-head span {
+  color: var(--portfolio-muted);
+  font-size: 0.92rem;
+  white-space: nowrap;
+}
+
+.photography-property-note {
+  color: var(--portfolio-copy);
+  font-size: 1rem;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.photography-collage-stack {
+  display: grid;
+  gap: 1rem;
+}
+
+.photography-collage-frame {
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 0.65rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.photography-collage-frame img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.photography-collage-frame figcaption {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--portfolio-muted);
+  font-size: 0.88rem;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0.8rem 0.95rem;
+}
+
+body.light-mode .photography-brand-frame,
+body.light-mode .photography-property-card,
+body.light-mode .photography-collage-frame {
+  background:
+    radial-gradient(circle at 50% 35%, rgba(22, 143, 148, 0.055), transparent 62%),
+    rgba(255, 255, 255, 0.58);
+}
+
+body.light-mode .photography-collage-frame figcaption {
+  border-top-color: rgba(18, 79, 86, 0.13);
+}
+
 body.light-mode .experience-logo-frame {
   background:
     radial-gradient(circle at 50% 35%, rgba(22, 143, 148, 0.065), transparent 58%),
@@ -1086,6 +1196,7 @@ footer.content,
   .experience-logo-frame {
     min-height: 14rem;
   }
+
 }
 
 @media screen and (max-width: 560px) {
@@ -1151,5 +1262,20 @@ footer.content,
   .project-panel-body {
     padding-left: 1.2rem;
     padding-right: 1.2rem;
+  }
+
+  .photography-brand-frame {
+    aspect-ratio: 4 / 3;
+    padding: 1.2rem;
+  }
+
+  .photography-property-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .photography-property-head span {
+    white-space: normal;
   }
 }
