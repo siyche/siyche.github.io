@@ -985,7 +985,7 @@ main.content {
 
 .photography-brand-frame {
   align-items: center;
-  aspect-ratio: 16 / 7;
+  aspect-ratio: 16 / 5;
   background:
     radial-gradient(circle at 50% 35%, rgba(99, 224, 218, 0.05), transparent 62%),
     rgba(255, 255, 255, 0.045);
@@ -994,7 +994,7 @@ main.content {
   display: flex;
   justify-content: center;
   overflow: hidden;
-  padding: 2rem;
+  padding: 1.35rem;
 }
 
 .photography-brand-frame img {
@@ -1012,8 +1012,8 @@ main.content {
   border: 1px solid var(--portfolio-line);
   border-radius: 0.75rem;
   display: grid;
-  gap: 1rem;
-  padding: 1rem;
+  gap: 0.8rem;
+  padding: 0.85rem;
 }
 
 .photography-property-head {
@@ -1035,16 +1035,16 @@ main.content {
   white-space: nowrap;
 }
 
-.photography-property-note {
-  color: var(--portfolio-copy);
-  font-size: 1rem;
-  line-height: 1.45;
-  margin: 0;
-}
-
 .photography-collage-stack {
   display: grid;
-  gap: 1rem;
+  gap: 0.8rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.photography-collage-column {
+  display: grid;
+  gap: 0.8rem;
+  align-content: start;
 }
 
 .photography-collage-frame {
@@ -1061,25 +1061,12 @@ main.content {
   width: 100%;
 }
 
-.photography-collage-frame figcaption {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  color: var(--portfolio-muted);
-  font-size: 0.88rem;
-  line-height: 1.35;
-  margin: 0;
-  padding: 0.8rem 0.95rem;
-}
-
 body.light-mode .photography-brand-frame,
 body.light-mode .photography-property-card,
 body.light-mode .photography-collage-frame {
   background:
     radial-gradient(circle at 50% 35%, rgba(22, 143, 148, 0.055), transparent 62%),
     rgba(255, 255, 255, 0.58);
-}
-
-body.light-mode .photography-collage-frame figcaption {
-  border-top-color: rgba(18, 79, 86, 0.13);
 }
 
 body.light-mode .experience-logo-frame {
@@ -1265,8 +1252,12 @@ footer.content,
   }
 
   .photography-brand-frame {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 16 / 7;
     padding: 1.2rem;
+  }
+
+  .photography-collage-stack {
+    grid-template-columns: 1fr;
   }
 
   .photography-property-head {
