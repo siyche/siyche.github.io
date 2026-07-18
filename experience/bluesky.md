@@ -13,7 +13,7 @@ header_meta: Property, interior, and architectural photography
 
 <section class="resume-section photography-property-section">
   <div class="resume-section-heading">
-    <h2>2216 70th Ave SE, Mercer Island, WA 98040</h2>
+    <h2>2XXX XX XXX XX, Mercer Island, WA XXXXX</h2>
   </div>
   <div class="photography-property-card">
     <div class="photography-property-head">
