@@ -2,8 +2,27 @@
 layout: page
 title: Bluesky Photography
 header_subtitle: Residential & Commercial Photography Portfolio
-header_meta: Exterior, interior, and Aerial
 ---
+
+<section class="resume-section photography-specs-section">
+  <div class="photography-specs-head">
+    <span>Shoot Specs</span>
+  </div>
+  <div class="photography-spec-grid">
+    <div class="photography-spec-item">
+      <span>Exterior &amp; Interior</span>
+      <strong>Sony a7 III</strong>
+    </div>
+    <div class="photography-spec-item">
+      <span>Aerial</span>
+      <strong>DJI Air 3S</strong>
+    </div>
+    <div class="photography-spec-item">
+      <span>3D Floorplans</span>
+      <strong>Insta360 X3</strong>
+    </div>
+  </div>
+</section>
 
 
 
@@ -12,7 +31,6 @@ header_meta: Exterior, interior, and Aerial
   <div class="photography-property-card">
     <div class="photography-property-head">
       <h3>Mercer Island, WA</h3>
-      <span>4 collage screenshots</span>
     </div>
 
     <div class="photography-collage-stack">
