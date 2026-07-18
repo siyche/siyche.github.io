@@ -1,23 +1,17 @@
 ---
 layout: page
 title: Bluesky Photography
-header_subtitle: Residential Photography Portfolio
-header_meta: Property, interior, and architectural photography
+header_subtitle: Residential & Commercial Photography Portfolio
+header_meta: Exterior, interior, and Aerial
 ---
 
-<section class="resume-section photography-hero">
-  <div class="photography-brand-frame">
-    <img src="/assets/img/experience/bluesky.png" alt="Bluesky Photography logo" />
-  </div>
-</section>
+
 
 <section class="resume-section photography-property-section">
-  <div class="resume-section-heading">
-    <h2>2XXX XX XXX XX, Mercer Island, WA XXXXX</h2>
-  </div>
+
   <div class="photography-property-card">
     <div class="photography-property-head">
-      <h3>Residential Property Gallery</h3>
+      <h3>Mercer Island, WA</h3>
       <span>4 collage screenshots</span>
     </div>
 
