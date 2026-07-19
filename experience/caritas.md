@@ -12,19 +12,19 @@ header_meta: August 2025 - June 2026
 <!-- <div class="link-card-grid">
   <div class="link-card">
     <strong>Role</strong>
-    <span>UI/UX Designer and Software Engineer</span>
+    <span>Software Engineer</span>
   </div>
   <div class="link-card">
     <strong>Team</strong>
-    <span>Co-led a team of 5</span>
+    <span>Full-stack web app</span>
   </div>
   <div class="link-card">
     <strong>Platform</strong>
-    <span>Mobile and web</span>
+    <span>Web app and backend API</span>
   </div>
   <div class="link-card">
     <strong>Date</strong>
-    <span>March 2026</span>
+    <span>August 2025 - June 2026</span>
   </div>
 </div> -->
 
@@ -74,14 +74,14 @@ I also helped implement role-based access and GDPR-conscious authentication patt
     <h2>Technologies</h2>
   </div>
   <div class="resume-tags">
-    <span>React Native</span>
+    <span>REST APIs</span>
     <span>React</span>
     <span>Express.js</span>
-    <span>Web Clerk</span>
+    <span>Role-Based Access</span>
     <span>Jest</span>
     <span>Agile</span>
     <span>Next.js</span>
-    <span>Amazon Buckets</span>
+    <span>AWS S3</span>
     <span>MongoDB / Mongoose</span>
     <span>Microsoft Authentication</span>
   </div>

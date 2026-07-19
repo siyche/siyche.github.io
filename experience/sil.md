@@ -12,19 +12,19 @@ header_meta: March 2026 - June 2026
 <!-- <div class="link-card-grid">
   <div class="link-card">
     <strong>Role</strong>
-    <span>UI/UX Designer and Software Engineer</span>
+    <span>Mobile Software Engineer</span>
   </div>
   <div class="link-card">
     <strong>Team</strong>
-    <span>Co-led a team of 5</span>
+    <span>Led a team of 5 engineers</span>
   </div>
   <div class="link-card">
     <strong>Platform</strong>
-    <span>Mobile and web</span>
+    <span>Mobile app</span>
   </div>
   <div class="link-card">
     <strong>Date</strong>
-    <span>March 2026</span>
+    <span>March 2026 - June 2026</span>
   </div>
 </div> -->
 

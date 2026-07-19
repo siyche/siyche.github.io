@@ -11,19 +11,19 @@ header_meta: Seattle, WA | May 2023 - Sep 2023
 <!-- <div class="link-card-grid">
   <div class="link-card">
     <strong>Role</strong>
-    <span>UI/UX Designer and Software Engineer</span>
+    <span>Project Manager Intern</span>
   </div>
   <div class="link-card">
     <strong>Team</strong>
-    <span>Co-led a team of 5</span>
+    <span>Aviation Ops Division</span>
   </div>
   <div class="link-card">
     <strong>Platform</strong>
-    <span>Mobile and web</span>
+    <span>Document workflows</span>
   </div>
   <div class="link-card">
     <strong>Date</strong>
-    <span>March 2026</span>
+    <span>May 2023 - September 2023</span>
   </div>
 </div> -->
 
@@ -66,5 +66,4 @@ By redesigning the process around clearer handoffs, better tracking, and more co
   </div>
   <p class="resume-entry-summary">The workflow improvements exceeded company quarterly goals by 270% and supported more reliable, high-quality outcomes for aviation operations documentation.</p>
   </section>
-
 

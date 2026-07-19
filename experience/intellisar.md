@@ -11,19 +11,19 @@ header_meta: San Luis Obispo, CA | Jun 2025 - Present
 <!-- <div class="link-card-grid">
   <div class="link-card">
     <strong>Role</strong>
-    <span>UI/UX Designer and Software Engineer</span>
+    <span>AI Drone Researcher</span>
   </div>
   <div class="link-card">
     <strong>Team</strong>
-    <span>Co-led a team of 5</span>
+    <span>NASA and MIT collaboration</span>
   </div>
   <div class="link-card">
     <strong>Platform</strong>
-    <span>Mobile and web</span>
+    <span>GIS and satellite imagery</span>
   </div>
   <div class="link-card">
     <strong>Date</strong>
-    <span>March 2026</span>
+    <span>June 2025 - Present</span>
   </div>
 </div> -->
 
