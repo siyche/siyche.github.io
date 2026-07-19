@@ -248,6 +248,28 @@ body.light-mode .resume-Education::before {
   z-index: 1;
 }
 
+.sidebar-logo {
+  align-items: center;
+  align-self: center;
+  display: inline-flex;
+  height: 8rem;
+  justify-content: center;
+  margin: 0 0 2.75rem;
+  text-decoration: none;
+  width: 8rem;
+}
+
+.sidebar-logo img {
+  display: block;
+  height: auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  transform: scale(2.35);
+  transform-origin: center;
+  width: auto;
+}
+
 .sidebar-title {
   color: var(--portfolio-ink);
   display: inline-block;
@@ -1192,8 +1214,14 @@ footer.content,
     padding: 5.4rem 2rem 2.2rem;
   }
 
+  .sidebar-logo {
+    height: 7.25rem;
+    margin-bottom: 2.2rem;
+    width: 7.25rem;
+  }
+
   .sidebar-nav {
-    margin-top: 2.4rem;
+    margin-top: 0;
   }
 
   .sidebar-nav ul {

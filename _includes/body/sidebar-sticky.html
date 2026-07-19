@@ -1,4 +1,8 @@
 <div class="sidebar-sticky">
+  <a class="sidebar-logo" href="{{ '/' | relative_url }}" aria-label="{{ site.title | default: 'Home' }}">
+    <img src="{{ '/assets/img/initials.png' | relative_url }}" alt="" />
+  </a>
+
   <nav class="sidebar-nav heading" role="navigation">
     <span class="sr-only">{{ site.data.strings.navigation | default:"Navigation" }}{{ site.data.strings.colon | default:":" }}</span>
     <ul>
