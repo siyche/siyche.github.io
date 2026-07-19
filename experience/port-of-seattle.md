@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Port of Seattle
-header_subtitle: Project Manager Intern
+header_subtitle: Project Manager Intern, Aviation Ops Division
 header_meta: Seattle, WA | May 2023 - Sep 2023
 ---
 
 
-<!-- <p class="lead">A translation support tool for mobile and web that used AI-assisted verse segmentation to reduce manual work, improve reference accuracy, and make audio-based translation workflows easier to manage.</p> -->
+<!-- <p class="lead">Aviation operations internship focused on improving document management workflows for aeronautical, cargo, and construction data.</p> -->
 
 <!-- <div class="link-card-grid">
   <div class="link-card">
@@ -31,9 +31,9 @@ header_meta: Seattle, WA | May 2023 - Sep 2023
   <div class="resume-section-heading">
     <h2>Overview</h2>
   </div>
-  <p class="resume-entry-summary">Audio Project Manager is a platform built to support audio-based translation and transcription workflows, including oral Bible translation, oral drafting, Bible storying, and general transcription. Our team was given a partially working web app and tasked with turning it into a fully functioning mobile application, expanding the product into a more reliable and accessible tool for real-world users.
+  <p class="resume-entry-summary">At the Port of Seattle, I worked in the Aviation Operations Division on document management workflows for aeronautical, cargo, and construction data. The internship focused on improving how operational information was organized, tracked, and maintained across teams.
 
-  The final platform supported both mobile and web environments and was designed for active use in production translation workflows. Rather than simply adapting screens, the work involved improving how the product functioned, how users moved through tasks, and how complex audio-based processes could be made more intuitive.</p>
+  The work combined project coordination, workflow redesign, and stakeholder communication. Rather than treating documentation as a static filing task, I focused on making the process more reliable, measurable, and useful for the teams depending on that data.</p>
 </section>
 
 
@@ -43,8 +43,8 @@ header_meta: Seattle, WA | May 2023 - Sep 2023
   </div>
   <article class="resume-entry">
     <ul>
-      <li>I co-led a five-person team working across both design and implementation. My work spanned UI/UX and software engineering, which meant contributing not only to how the app looked and felt, but also to how its core features behaved within the workflow.</li>
-      <li>A major part of my contribution was helping shape how AI-assisted functionality should appear in the product so that it felt useful and understandable rather than opaque. I focused on making sure the tool supported the user’s process clearly and practically, especially in a production environment where trust and readability mattered.</li>
+      <li>I redesigned and optimized document management workflows for aviation operations data across aeronautical, cargo, and construction contexts.</li>
+      <li>A major part of my contribution was coordinating with cross-functional teams and stakeholders to make sure the workflow changes were reliable, high quality, and aligned with operational needs.</li>
     </ul>
   </article>
 </section>
@@ -52,11 +52,11 @@ header_meta: Seattle, WA | May 2023 - Sep 2023
 
 <section class="resume-section">
   <div class="resume-section-heading">
-    <h2>AI-Assisted Verse Segmentation</h2>
+    <h2>Workflow Redesign</h2>
   </div>
-  <p class="resume-entry-summary">As part of a platform built for flexible audio-only and hybrid audio-text workflows, I worked on the back translation and verse segmentation experience for translation teams operating in audio-centered environments. The app was designed to help users manage content across book, chapter, and verse ranges, collaborate through threaded discussions and community checking, and integrate transcription work with Paratext for additional review and quality checks. Because the platform served users with varying levels of technical experience, it was important that the workflow remained simple, organized, and accessible while still supporting complex translation tasks.
+  <p class="resume-entry-summary">I worked through existing document processes, identified places where information flow could be tightened, and helped create a cleaner workflow for managing aviation operations records. The role required balancing detail-oriented documentation with communication across teams that had different operational priorities.
 
-To support that goal, we implemented AI-assisted tooling that helped parse audio content, detect verse boundaries, and generate timestamped verse references. This reduced the amount of manual marking required and gave users a more structured way to move through audio and translated content. My contribution focused not only on the feature itself, but on how the AI output appeared within the workflow. I helped shape the experience so the segmentation felt readable, trustworthy, and genuinely useful in practice, making sure the feature supported real translators in a production mobile and web environment rather than feeling like AI for its own sake.</p>
+By redesigning the process around clearer handoffs, better tracking, and more consistent document quality, the work helped the team move faster while preserving accuracy.</p>
   </section>
 
 
@@ -64,8 +64,7 @@ To support that goal, we implemented AI-assisted tooling that helped parse audio
   <div class="resume-section-heading">
     <h2>Outcome</h2>
   </div>
-  <p class="resume-entry-summary">The result was a more complete mobile and web translation platform that supported flexible audio-text workflows, collaboration tools, and structured verse-level organization in an environment used by more than 14,000 users. This project strengthened my experience in cross-functional product development, especially at the intersection of AI-assisted workflows, interface design, and engineering.</p>
+  <p class="resume-entry-summary">The workflow improvements exceeded company quarterly goals by 270% and supported more reliable, high-quality outcomes for aviation operations documentation.</p>
   </section>
-
 
 

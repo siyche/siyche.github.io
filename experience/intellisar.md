@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Intellisar AI for Search and Rescue
-header_subtitle: Student AI Researcher
+header_subtitle: AI Drone Researcher
 header_meta: San Luis Obispo, CA | Jun 2025 - Present
 ---
 
 
-<!-- <p class="lead">A translation support tool for mobile and web that used AI-assisted verse segmentation to reduce manual work, improve reference accuracy, and make audio-based translation workflows easier to manage.</p> -->
+<!-- <p class="lead">A geospatial AI research project using satellite imagery, GIS tooling, and object detection to support search-and-rescue analysis.</p> -->
 
 <!-- <div class="link-card-grid">
   <div class="link-card">
@@ -31,9 +31,9 @@ header_meta: San Luis Obispo, CA | Jun 2025 - Present
   <div class="resume-section-heading">
     <h2>Overview</h2>
   </div>
-  <p class="resume-entry-summary">Audio Project Manager is a platform built to support audio-based translation and transcription workflows, including oral Bible translation, oral drafting, Bible storying, and general transcription. Our team was given a partially working web app and tasked with turning it into a fully functioning mobile application, expanding the product into a more reliable and accessible tool for real-world users.
+  <p class="resume-entry-summary">Intellisar is a search-and-rescue research effort focused on using satellite imagery, geospatial processing, and machine learning to analyze terrain at scale. I worked on research workflows that connected raw spatial data with practical search-area analysis.
 
-  The final platform supported both mobile and web environments and was designed for active use in production translation workflows. Rather than simply adapting screens, the work involved improving how the product functioned, how users moved through tasks, and how complex audio-based processes could be made more intuitive.</p>
+  The work involved collaboration with NASA researchers and MIT students, along with hands-on processing in Python, ArcGIS Pro, QGIS, and Linux environments. The goal was to make large geospatial datasets more useful for identifying features that matter in search-and-rescue planning.</p>
 </section>
 
 
@@ -43,8 +43,8 @@ header_meta: San Luis Obispo, CA | Jun 2025 - Present
   </div>
   <article class="resume-entry">
     <ul>
-      <li>I co-led a five-person team working across both design and implementation. My work spanned UI/UX and software engineering, which meant contributing not only to how the app looked and felt, but also to how its core features behaved within the workflow.</li>
-      <li>A major part of my contribution was helping shape how AI-assisted functionality should appear in the product so that it felt useful and understandable rather than opaque. I focused on making sure the tool supported the user’s process clearly and practically, especially in a production environment where trust and readability mattered.</li>
+      <li>I collaborated with NASA researchers and MIT students to analyze satellite imagery for search-and-rescue use cases.</li>
+      <li>A major part of my contribution was processing and georeferencing large-scale spatial datasets, then using machine learning models to detect terrain features that could improve search-area accuracy.</li>
     </ul>
   </article>
 </section>
@@ -52,11 +52,11 @@ header_meta: San Luis Obispo, CA | Jun 2025 - Present
 
 <section class="resume-section">
   <div class="resume-section-heading">
-    <h2>AI-Assisted Verse Segmentation</h2>
+    <h2>Geospatial Machine Learning</h2>
   </div>
-  <p class="resume-entry-summary">As part of a platform built for flexible audio-only and hybrid audio-text workflows, I worked on the back translation and verse segmentation experience for translation teams operating in audio-centered environments. The app was designed to help users manage content across book, chapter, and verse ranges, collaborate through threaded discussions and community checking, and integrate transcription work with Paratext for additional review and quality checks. Because the platform served users with varying levels of technical experience, it was important that the workflow remained simple, organized, and accessible while still supporting complex translation tasks.
+  <p class="resume-entry-summary">My work centered on preparing spatial imagery for analysis and building ML-driven object detection workflows. That included aligning imagery to real-world coordinates, handling large datasets on Linux servers, and producing outputs that could be used for research and search-planning tasks.
 
-To support that goal, we implemented AI-assisted tooling that helped parse audio content, detect verse boundaries, and generate timestamped verse references. This reduced the amount of manual marking required and gave users a more structured way to move through audio and translated content. My contribution focused not only on the feature itself, but on how the AI output appeared within the workflow. I helped shape the experience so the segmentation felt readable, trustworthy, and genuinely useful in practice, making sure the feature supported real translators in a production mobile and web environment rather than feeling like AI for its own sake.</p>
+I also contributed to open-source GIS tooling and publication-grade research workflows, which made the project a mix of software engineering, applied machine learning, and geospatial research.</p>
   </section>
 
 
@@ -64,7 +64,7 @@ To support that goal, we implemented AI-assisted tooling that helped parse audio
   <div class="resume-section-heading">
     <h2>Outcome</h2>
   </div>
-  <p class="resume-entry-summary">The result was a more complete mobile and web translation platform that supported flexible audio-text workflows, collaboration tools, and structured verse-level organization in an environment used by more than 14,000 users. This project strengthened my experience in cross-functional product development, especially at the intersection of AI-assisted workflows, interface design, and engineering.</p>
+  <p class="resume-entry-summary">The research improved how satellite imagery and terrain data could be processed for search-and-rescue analysis, helping make geospatial information more actionable for identifying critical terrain features.</p>
   </section>
 
 
@@ -73,13 +73,13 @@ To support that goal, we implemented AI-assisted tooling that helped parse audio
     <h2>Technologies</h2>
   </div>
   <div class="resume-tags">
-    <span>React Native</span>
-    <span>React</span>
-    <span>Electron-Vite</span>
-    <span>TypeScript</span>
-    <span>Mobile UI</span>
-    <span>Cypress</span>
-    <span>Balsamic</span>
-    <span>ESLint</span>
+    <span>Python</span>
+    <span>Machine Learning</span>
+    <span>Object Detection</span>
+    <span>ArcGIS Pro</span>
+    <span>QGIS</span>
+    <span>Georeferencing</span>
+    <span>Satellite Imagery</span>
+    <span>Linux</span>
   </div>
 </section>

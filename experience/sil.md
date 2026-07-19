@@ -1,8 +1,8 @@
 ---
 layout: page
 title: SIL Audio Project Manager Mobile App
-header_subtitle: UI/UX Designer & Software Engineer
-header_meta: Colorado Springs, Colorado | March 2026
+header_subtitle: Mobile Software Engineer
+header_meta: March 2026 - June 2026
 ---
 
 <p class="lead"><strong>Repository:</strong> <a href="https://github.com/sillsdev/apm" rel="noopener noreferrer">SIL Audio Project Manager on GitHub</a></p>
@@ -44,8 +44,8 @@ header_meta: Colorado Springs, Colorado | March 2026
   </div>
   <article class="resume-entry">
     <ul>
-      <li>I co-led a five-person team working across both design and implementation. My work spanned UI/UX and software engineering, which meant contributing not only to how the app looked and felt, but also to how its core features behaved within the workflow.</li>
-      <li>A major part of my contribution was helping shape how AI-assisted functionality should appear in the product so that it felt useful and understandable rather than opaque. I focused on making sure the tool supported the user’s process clearly and practically, especially in a production environment where trust and readability mattered.</li>
+      <li>I led a five-person engineering team building an AI-powered verse segmentation tool for a Bible translation mobile app used by more than 14,000 users.</li>
+      <li>A major part of my contribution was making the AI-assisted workflow practical for translators by detecting verse boundaries, generating timestamped verse references, and presenting the output in a way that was easy to review.</li>
     </ul>
   </article>
 </section>
