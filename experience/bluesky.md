@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Bluesky Photography
-header_subtitle: Residential & Commercial Photography Portfolio
+title: Real Estate Photography
+header_subtitle: Luxury・Residential・Commercial
 ---
 
 <section class="resume-section photography-specs-section">
   <div class="photography-specs-head">
-    <span>Shoot Specs</span>
+    <span>Shoot Equipment</span>
   </div>
   <div class="photography-spec-grid">
     <div class="photography-spec-item">
@@ -22,6 +22,41 @@ header_subtitle: Residential & Commercial Photography Portfolio
       <strong>Insta360 X3</strong>
     </div>
   </div>
+</section>
+
+
+<section class="photography-timeline" aria-labelledby="photography-timeline-title">
+  <div class="photography-timeline-head">
+    <span id="photography-timeline-title">Photography Growth</span>
+    <p>Built from production experience into independent residential media work.</p>
+  </div>
+
+  <ol class="photography-timeline-list">
+    <li>
+      <div class="photography-timeline-marker" aria-hidden="true"></div>
+      <div class="photography-timeline-copy">
+        <small>Started</small>
+        <strong>Bluesky Photography</strong>
+        <span>Learned the pace and standards of real estate shoots while building consistency across interior, exterior, and listing media.</span>
+      </div>
+    </li>
+    <li>
+      <div class="photography-timeline-marker" aria-hidden="true"></div>
+      <div class="photography-timeline-copy">
+        <small>Expanded</small>
+        <strong>Boulevard Real Estate</strong>
+        <span>Gained more client-facing production experience and refined how I plan, shoot, and deliver residential property coverage.</span>
+      </div>
+    </li>
+    <li>
+      <div class="photography-timeline-marker" aria-hidden="true"></div>
+      <div class="photography-timeline-copy">
+        <small>Founded</small>
+        <strong>sc_real_estate_media</strong>
+        <span>Started my own real estate media brand focused on clean visuals, efficient delivery, and complete residential listing packages.</span>
+      </div>
+    </li>
+  </ol>
 </section>
 
 

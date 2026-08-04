@@ -1061,6 +1061,99 @@ main.content {
   line-height: 1.15;
 }
 
+.photography-timeline {
+  display: grid;
+  gap: 1.1rem;
+  margin: 0 0 2.35rem;
+  padding: 0.25rem 0.1rem 0;
+}
+
+.photography-timeline-head {
+  align-items: end;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.photography-timeline-head span {
+  color: var(--portfolio-ink);
+  font-size: 1.1rem;
+  font-weight: 850;
+}
+
+.photography-timeline-head p {
+  color: var(--portfolio-muted);
+  font-size: 0.92rem;
+  margin: 0;
+  text-align: right;
+}
+
+.photography-timeline-list {
+  counter-reset: photography-timeline;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.photography-timeline-list::before {
+  background: linear-gradient(90deg, rgba(99, 224, 218, 0.45), rgba(255, 255, 255, 0.08));
+  content: "";
+  height: 1px;
+  left: 1.1rem;
+  position: absolute;
+  right: 1.1rem;
+  top: 0.62rem;
+}
+
+.photography-timeline-list li {
+  display: grid;
+  gap: 0.75rem;
+  min-width: 0;
+  position: relative;
+}
+
+.photography-timeline-marker {
+  background: var(--portfolio-panel);
+  border: 2px solid rgba(99, 224, 218, 0.75);
+  border-radius: 999px;
+  box-shadow: 0 0 0 6px rgba(99, 224, 218, 0.08);
+  height: 1.2rem;
+  position: relative;
+  width: 1.2rem;
+  z-index: 1;
+}
+
+.photography-timeline-copy {
+  display: grid;
+  gap: 0.28rem;
+  padding-right: 0.75rem;
+}
+
+.photography-timeline-copy small {
+  color: rgba(99, 224, 218, 0.78);
+  font-size: 0.75rem;
+  font-weight: 850;
+  letter-spacing: 0.06em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.photography-timeline-copy strong {
+  color: var(--portfolio-ink);
+  font-size: 1rem;
+  line-height: 1.18;
+}
+
+.photography-timeline-copy span {
+  color: var(--portfolio-copy);
+  font-size: 0.92rem;
+  line-height: 1.42;
+}
+
 .photography-brand-frame {
   align-items: center;
   aspect-ratio: 16 / 5;
@@ -1427,6 +1520,40 @@ footer.content,
 
   .photography-spec-grid {
     grid-template-columns: 1fr;
+  }
+
+  .photography-timeline-head {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .photography-timeline-head p {
+    text-align: left;
+  }
+
+  .photography-timeline-list {
+    gap: 1.15rem;
+    grid-template-columns: 1fr;
+    padding-left: 0.1rem;
+  }
+
+  .photography-timeline-list::before {
+    bottom: 0.25rem;
+    height: auto;
+    left: 0.58rem;
+    right: auto;
+    top: 0.6rem;
+    width: 1px;
+  }
+
+  .photography-timeline-list li {
+    gap: 0.75rem;
+    grid-template-columns: 1.2rem minmax(0, 1fr);
+  }
+
+  .photography-timeline-copy {
+    padding-right: 0;
   }
 
   .photography-collage-stack {
