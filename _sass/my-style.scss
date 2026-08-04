@@ -1094,6 +1094,11 @@ main.content {
   padding: 0.85rem;
 }
 
+.photography-property-section {
+  display: grid;
+  gap: 1rem;
+}
+
 .photography-property-head {
   align-items: baseline;
   display: flex;
@@ -1140,10 +1145,82 @@ main.content {
   width: 100%;
 }
 
+.photography-carousel {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.photography-carousel-viewport {
+  border-radius: 0.65rem;
+  overflow: hidden;
+}
+
+.photography-carousel-slide {
+  display: none;
+}
+
+.photography-carousel-slide.is-active {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.photography-carousel-slide img {
+  height: auto;
+  max-height: min(72vh, 760px);
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
+  width: auto;
+}
+
+.photography-carousel-controls {
+  align-items: center;
+  display: flex;
+  gap: 0.7rem;
+  justify-content: center;
+}
+
+.photography-carousel-button {
+  align-items: center;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.075), rgba(255, 255, 255, 0.032));
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 0.5rem;
+  color: var(--portfolio-ink);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.45rem;
+  font-weight: 800;
+  height: 2.2rem;
+  justify-content: center;
+  line-height: 1;
+  padding: 0;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+  width: 2.2rem;
+}
+
+.photography-carousel-button:hover,
+.photography-carousel-button:focus-visible {
+  background-color: rgba(99, 224, 218, 0.12);
+  border-color: rgba(99, 224, 218, 0.45);
+  outline: none;
+  transform: translateY(-1px);
+}
+
+.photography-carousel-count {
+  color: var(--portfolio-muted);
+  font-size: 0.86rem;
+  font-weight: 800;
+  min-width: 3.4rem;
+  text-align: center;
+}
+
 body.light-mode .photography-brand-frame,
 body.light-mode .photography-spec-item,
 body.light-mode .photography-property-card,
-body.light-mode .photography-collage-frame {
+body.light-mode .photography-collage-frame,
+body.light-mode .photography-carousel-button {
   background:
     radial-gradient(circle at 50% 35%, rgba(22, 143, 148, 0.055), transparent 62%),
     rgba(255, 255, 255, 0.58);

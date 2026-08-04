@@ -1,1 +1,88 @@
-{% comment %}Custom project scripts intentionally empty. Drawer behavior is disabled for the portfolio layout.{% endcomment %}
+<script>
+  (function () {
+    function initPhotographyCarousels(root) {
+      var scope = root || document;
+      var carousels = scope.querySelectorAll('[data-photography-carousel]');
+
+      Array.prototype.forEach.call(carousels, function (carousel) {
+        if (carousel.getAttribute('data-carousel-ready') === 'true') return;
+
+        var slides = Array.prototype.slice.call(carousel.querySelectorAll('.photography-carousel-slide'));
+        var previous = carousel.querySelector('[data-carousel-prev]');
+        var next = carousel.querySelector('[data-carousel-next]');
+        var count = carousel.querySelector('[data-carousel-count]');
+        var current = 0;
+        var touchStartX = null;
+
+        if (!slides.length || !previous || !next || !count) return;
+
+        function show(index) {
+          current = (index + slides.length) % slides.length;
+
+          slides.forEach(function (slide, slideIndex) {
+            var isActive = slideIndex === current;
+            slide.hidden = !isActive;
+            slide.classList.toggle('is-active', isActive);
+          });
+
+          count.textContent = current + 1 + ' / ' + slides.length;
+        }
+
+        previous.addEventListener('click', function () {
+          show(current - 1);
+        });
+
+        next.addEventListener('click', function () {
+          show(current + 1);
+        });
+
+        carousel.addEventListener('keydown', function (event) {
+          if (event.key === 'ArrowLeft') show(current - 1);
+          if (event.key === 'ArrowRight') show(current + 1);
+        });
+
+        carousel.addEventListener(
+          'touchstart',
+          function (event) {
+            if (event.touches.length === 1) touchStartX = event.touches[0].clientX;
+          },
+          { passive: true }
+        );
+
+        carousel.addEventListener(
+          'touchend',
+          function (event) {
+            if (touchStartX === null || !event.changedTouches.length) return;
+
+            var distance = event.changedTouches[0].clientX - touchStartX;
+            if (Math.abs(distance) > 45) show(current + (distance < 0 ? 1 : -1));
+            touchStartX = null;
+          },
+          { passive: true }
+        );
+
+        carousel.setAttribute('data-carousel-ready', 'true');
+        show(0);
+      });
+    }
+
+    function init() {
+      initPhotographyCarousels(document.getElementById('_main') || document);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+
+    var pushState = document.querySelector('hy-push-state');
+    if (pushState && !window._noPushState) {
+      pushState.addEventListener('hy-push-state-ready', function (event) {
+        var main = event.detail && event.detail.replaceEls && event.detail.replaceEls[0];
+        initPhotographyCarousels(main || document);
+      });
+      pushState.addEventListener('hy-push-state-load', init);
+    }
+  })();
+</script>
