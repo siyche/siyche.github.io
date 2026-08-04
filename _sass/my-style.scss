@@ -1114,8 +1114,14 @@ main.content {
   align-content: start;
   display: grid;
   gap: 0.9rem;
+  margin: 0 !important;
   min-width: 0;
+  padding: 0;
   position: relative;
+}
+
+.page .photography-timeline-list > li + li {
+  margin-top: 0 !important;
 }
 
 .photography-timeline-marker {
