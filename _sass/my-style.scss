@@ -1132,13 +1132,14 @@ main.content {
 
 .photography-collage-frame {
   background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  border-radius: 0.65rem;
+  border: 0;
+  border-radius: 0;
   margin: 0;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .photography-collage-frame img {
+  border-radius: 0.65rem;
   display: block;
   height: auto;
   margin: 0 !important;
@@ -1219,7 +1220,6 @@ main.content {
 body.light-mode .photography-brand-frame,
 body.light-mode .photography-spec-item,
 body.light-mode .photography-property-card,
-body.light-mode .photography-collage-frame,
 body.light-mode .photography-carousel-button {
   background:
     radial-gradient(circle at 50% 35%, rgba(22, 143, 148, 0.055), transparent 62%),
