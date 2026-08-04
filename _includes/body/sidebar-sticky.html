@@ -24,6 +24,8 @@
         {% assign icon = "icon-file-empty" %}
         {% if title_down contains "experience" %}
           {% assign icon = "icon-briefcase" %}
+        {% elsif title_down contains "real estate" or title_down contains "photography" %}
+          {% assign icon = "icon-location" %}
         {% elsif title_down contains "about" %}
           {% assign icon = "icon-user-plus" %}
         {% elsif title_down contains "contact" %}
@@ -35,6 +37,9 @@
           {% assign active = true %}
         {% elsif item.url != "/" and page.url contains item.url %}
           {% assign active = true %}
+        {% endif %}
+        {% if item.url == "/experience/" and page.url contains "/experience/bluesky/" %}
+          {% assign active = false %}
         {% endif %}
 
         <li>

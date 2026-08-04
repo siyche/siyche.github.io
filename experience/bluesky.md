@@ -25,19 +25,14 @@ header_subtitle: Luxury・Residential・Commercial
 </section>
 
 
-<section class="photography-timeline" aria-labelledby="photography-timeline-title">
-  <div class="photography-timeline-head">
-    <span id="photography-timeline-title">Photography Growth</span>
-    <p>Built from production experience into independent residential media work.</p>
-  </div>
-
+<section class="photography-timeline">
   <ol class="photography-timeline-list">
     <li>
       <div class="photography-timeline-marker" aria-hidden="true"></div>
       <div class="photography-timeline-copy">
         <small>Started</small>
         <strong>Bluesky Photography</strong>
-        <span>Learned the pace and standards of real estate shoots while building consistency across interior, exterior, and listing media.</span>
+        <span>Built a foundation in client communication while adapting to the pace and quality standards of real estate photography.</span>
       </div>
     </li>
     <li>
@@ -52,8 +47,8 @@ header_subtitle: Luxury・Residential・Commercial
       <div class="photography-timeline-marker" aria-hidden="true"></div>
       <div class="photography-timeline-copy">
         <small>Founded</small>
-        <strong>sc_real_estate_media</strong>
-        <span>Started my own real estate media brand focused on clean visuals, efficient delivery, and complete residential listing packages.</span>
+        <strong>SC Real Estate Media</strong>
+        <span>Built my own real estate media company, retained 20+ clients, and began outsourcing photography and editing to increase capacity.</span>
       </div>
     </li>
   </ol>
