@@ -1089,6 +1089,7 @@ main.content {
 }
 
 .photography-timeline-list {
+  align-items: start;
   counter-reset: photography-timeline;
   display: grid;
   gap: 1.35rem;
@@ -1110,6 +1111,7 @@ main.content {
 }
 
 .photography-timeline-list li {
+  align-content: start;
   display: grid;
   gap: 0.9rem;
   min-width: 0;
@@ -1117,6 +1119,7 @@ main.content {
 }
 
 .photography-timeline-marker {
+  align-self: center;
   background: var(--portfolio-panel);
   border: 2px solid rgba(99, 224, 218, 0.75);
   border-radius: 999px;
@@ -1128,17 +1131,26 @@ main.content {
 }
 
 .photography-timeline-copy {
+  align-content: start;
+  align-self: start;
   display: grid;
   gap: 0.36rem;
   padding-right: 0.4rem;
 }
 
+.photography-timeline-copy small,
+.photography-timeline-copy strong,
+.photography-timeline-copy span {
+  margin: 0;
+}
+
 .photography-timeline-copy small {
   color: rgba(99, 224, 218, 0.78);
+  display: block;
   font-size: 0.75rem;
   font-weight: 850;
   letter-spacing: 0.06em;
-  line-height: 1;
+  line-height: 1.05;
   text-transform: uppercase;
 }
 
