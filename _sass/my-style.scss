@@ -1144,6 +1144,10 @@ main.content {
   padding-right: 0.4rem;
 }
 
+.photography-timeline-list li:nth-child(3) .photography-timeline-copy {
+  transform: translateY(0.1rem);
+}
+
 .photography-timeline-copy small,
 .photography-timeline-copy strong,
 .photography-timeline-copy span {
