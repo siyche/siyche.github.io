@@ -14,6 +14,7 @@ no_breadcrumbs: true
   <div class="resume-actions">
     <a class="resume-action primary" href="{{ '/showcase/' | relative_url }}"><span class="icon-arrow-right2" aria-hidden="true"></span>View Projects</a>
     <a class="resume-action" href="{{ '/assets/docs/Stephen-Chen-Resume.pdf' | relative_url }}"><span class="icon-file-pdf" aria-hidden="true"></span>Resume</a>
+    <a class="resume-action" href="https://siyche.github.io/screalestate"><span class="icon-camera" aria-hidden="true"></span>ApexStudio</a>
   </div>
 </section>
 
